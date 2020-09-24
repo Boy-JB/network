@@ -1,8 +1,10 @@
 <template>
-<div class="demo-image">
+<div class="logo">
+  <div class="demo-image">
   <div class="block">
     <el-image style="width: 190px; height: 51px" :src="require('assets/imgs/home/ic_顺凯科技.png')"></el-image>
   </div>
+</div>
 </div>
 </template>
 
@@ -12,8 +14,8 @@ export default {
 }
 </script>
 
-<style>
-.el-image {
+<style scoped>
+.logo >>> .el-image {
   position: absolute;
   top: 5px;
   left: 460px;

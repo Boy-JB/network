@@ -1,33 +1,33 @@
 <template>
-  <div class="service">
-    <div class="service-all">
-      <p class="service-title">我们的服务</p>
-      <p class="service-bg">OUR SERVICE</p>
-      <div class="service-icon"></div>
-      <p class="little-service">OUR SERVICE</p>
+    <div class="advantage">
+      <div class="advantage-all">
+        <p class="advantage-title">我们的优势</p>
+        <p class="advantage-bg">OUR ADVANTAGE</p>
+        <div class="advantage-icon"></div>
+        <p class="little-advantage">OUR ADVANTAGE</p>
+      </div>
+      <advantageItem />
     </div>
-    <service-item />
-  </div>
 </template>
 
 <script>
-import ServiceItem from "./ServiceItem";
+import AdvantageItem from "./AdvantageItem";
 
 export default {
-  name: "Service",
+  name: "Advantage",
   components: {
-    ServiceItem,
+    AdvantageItem,
   },
 };
 </script>
 
 <style scoped>
-.service >>> .service-all {
+.advantage >>> .advantage-all {
   text-align: center;
   color: #ffffff;
 }
 
-.service >>> .service-title {
+.advantage >>> .advantage-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 50px;
 }
 
-.service >>> .service-bg {
+.advantage >>> .advantage-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -50,12 +50,12 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
- margin: 0;
- top: 20px;
- left: 765px;
+  margin: 0;
+  top: 20px;
+  left: 765px;
 }
 
-.service >>> .service-icon {
+.advantage >>> .advantage-icon {
   background-color: #fff;
   width: 40px;
   height: 4px;
@@ -63,7 +63,7 @@ export default {
   margin: 0 auto;
 }
 
-.service >>> .little-service {
+.advantage >>> .little-advantage {
   margin-top: 36px;
 }
 </style>
