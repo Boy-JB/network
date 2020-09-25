@@ -31,7 +31,7 @@
       </el-footer>
 
       <el-footer class="footer6">
-        <footer />
+        <contact />
       </el-footer>
     </el-container>
   </div>
@@ -46,7 +46,7 @@ import Case from "./components/Case";
 import Company from "./components/Company";
 import About from "./components/About";
 import Recruitment from "./components/Recruitment";
-import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 
 export default {
   name: "Home",
@@ -59,7 +59,7 @@ export default {
     Company,
     About,
     Recruitment,
-    Footer
+    Contact
   },
 };
 </script>
