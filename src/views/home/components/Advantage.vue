@@ -52,7 +52,7 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 765px;
+  left: 650px;
 }
 
 .advantage >>> .advantage-icon {
@@ -65,5 +65,6 @@ export default {
 
 .advantage >>> .little-advantage {
   margin-top: 36px;
+  font-size: 12px;
 }
 </style>

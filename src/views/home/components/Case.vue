@@ -1,33 +1,34 @@
 <template>
-  <div class="service">
-    <div class="service-all">
-      <p class="service-title">我们的服务</p>
-      <p class="service-bg">OUR SERVICE</p>
-      <div class="service-icon"></div>
-      <p class="little-service">OUR SERVICE</p>
+  <div class="case">
+    <div class="case-all">
+      <p class="case-title">精品案例</p>
+      <p class="case-bg">BOUTIQUE CASE</p>
+      <div class="case-icon"></div>
+      <p class="little-case">BOUTIQUE CASE</p>
     </div>
-    <service-item />
+
+    <case-item />
   </div>
 </template>
 
 <script>
-import ServiceItem from "./ServiceItem";
+import CaseItem from "./CaseItem";
 
 export default {
-  name: "Service",
+  name: "Case",
   components: {
-    ServiceItem,
+    CaseItem,
   },
 };
 </script>
 
 <style scoped>
-.service >>> .service-all {
+.case >>> .case-all {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
-.service >>> .service-title {
+.case >>> .case-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,30 +41,30 @@ export default {
   margin-top: 50px;
 }
 
-.service >>> .service-bg {
+.case >>> .case-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 47, 245, 0.2);
+  color: rgba(32, 47, 245, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
- margin: 0;
- top: 20px;
- left: 765px;
+  margin: 0;
+  top: 20px;
+  left: 680px;
 }
 
-.service >>> .service-icon {
-  background-color: #fff;
+.case >>> .case-icon {
+  background-color: rgba(209, 209, 209, 1);
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.service >>> .little-service {
+.case >>> .little-case {
   margin-top: 36px;
   font-size: 12px;
 }

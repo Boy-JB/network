@@ -1,33 +1,33 @@
 <template>
-  <div class="service">
-    <div class="service-all">
-      <p class="service-title">我们的服务</p>
-      <p class="service-bg">OUR SERVICE</p>
-      <div class="service-icon"></div>
-      <p class="little-service">OUR SERVICE</p>
-    </div>
-    <service-item />
+  <div class="company">
+    <div class="company-all">
+        <p class="company-title">公司动态</p>
+        <p class="company-bg">DYNAMIC</p>
+        <div class="company-icon"></div>
+        <p class="little-company">DYNAMIC</p>
+      </div>
+    <company-item />
   </div>
 </template>
 
 <script>
-import ServiceItem from "./ServiceItem";
+import CompanyItem from "./CompanyItem"
 
 export default {
-  name: "Service",
+  name: "Company",
   components: {
-    ServiceItem,
-  },
-};
+    CompanyItem
+  }
+}
 </script>
 
 <style scoped>
-.service >>> .service-all {
+.company >>> .company-all {
   text-align: center;
   color: #ffffff;
 }
 
-.service >>> .service-title {
+.company >>> .company-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 50px;
 }
 
-.service >>> .service-bg {
+.company >>> .company-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -50,12 +50,12 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
- margin: 0;
- top: 20px;
- left: 765px;
+  margin: 0;
+  top: 20px;
+  left: 780px;
 }
 
-.service >>> .service-icon {
+.company >>> .company-icon {
   background-color: #fff;
   width: 40px;
   height: 4px;
@@ -63,7 +63,7 @@ export default {
   margin: 0 auto;
 }
 
-.service >>> .little-service {
+.company >>> .little-company {
   margin-top: 36px;
   font-size: 12px;
 }

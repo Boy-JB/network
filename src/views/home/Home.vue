@@ -1,47 +1,52 @@
 <template>
-<div class="home">
-  <el-container>
-    <el-header>
-      <logo />
-      <home-title />
-    </el-header>
+  <div class="home">
+    <el-container>
+      <el-header>
+        <logo />
+        <home-title />
+      </el-header>
 
-    <el-main>
-      <service />
-    </el-main>
+      <el-main>
+        <service />
+      </el-main>
 
-    <el-footer class="footer1">
-      <advantage />
-    </el-footer>
+      <el-footer class="footer1">
+        <advantage />
+      </el-footer>
 
-    <el-footer class="footer2">
+      <el-footer class="footer2">
+        <case />
+      </el-footer>
 
-    </el-footer>
+      <el-footer class="footer3">
+        <company />
+      </el-footer>
 
-    <el-footer class="footer3">
+      <el-footer class="footer4">
+        <about />
+      </el-footer>
 
-    </el-footer>
+      <el-footer class="footer5">
+        <recruitment />
+      </el-footer>
 
-    <el-footer class="footer4">
-
-    </el-footer>
-
-    <el-footer class="footer5">
-
-    </el-footer>
-
-    <el-footer class="footer6">
-
-    </el-footer>
-  </el-container>
-</div>
+      <el-footer class="footer6">
+        <footer />
+      </el-footer>
+    </el-container>
+  </div>
 </template>
 
 <script>
-import HomeTitle from "./components/HomeTitle"
-import Logo from "./components/Logo"
-import Service from "./components/Service"
-import Advantage from "./components/Advantage"
+import HomeTitle from "./components/HomeTitle";
+import Logo from "./components/Logo";
+import Service from "./components/Service";
+import Advantage from "./components/Advantage";
+import Case from "./components/Case";
+import Company from "./components/Company";
+import About from "./components/About";
+import Recruitment from "./components/Recruitment";
+import Footer from "./components/Footer"
 
 export default {
   name: "Home",
@@ -49,8 +54,13 @@ export default {
     HomeTitle,
     Logo,
     Service,
-    Advantage
-  }
+    Advantage,
+    Case,
+    Company,
+    About,
+    Recruitment,
+    Footer
+  },
 };
 </script>
 
@@ -71,7 +81,6 @@ export default {
   position: relative;
 }
 
-
 .home >>> .footer1 {
   background: url("../../assets/imgs/home/bg_我们的优势.png");
   height: 700px !important;
@@ -84,38 +93,51 @@ export default {
 .home >>> .footer2 {
   background-color: #fafafa;
   height: 800px !important;
+  position: relative;
+  text-align: center;
+  padding: 0;
 }
 
 .home >>> .footer3 {
   background: url("../../assets/imgs/home/bg_公司动态.png");
   height: 700px !important;
+  position: relative;
+  text-align: center;
+  padding: 0;
 }
 
 .home >>> .footer4 {
   background-color: #fafafa;
   height: 800px !important;
+  position: relative;
+  text-align: center;
+  padding: 0;
 }
 
 .home >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
   height: 700px !important;
+  position: relative;
+  text-align: center;
+  padding: 0;
 }
 
 .home >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
   height: 700px !important;
+  position: relative;
+  text-align: center;
+  padding: 0;
 }
 
 .home >>> .el-aside {
-  background-color: #D3DCE6;
+  background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-
-
-.home >>> body>.el-container {
+.home >>> body > .el-container {
   margin-bottom: 40px;
 }
 
@@ -128,11 +150,14 @@ export default {
   line-height: 320px;
 }
 
-.home >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+.home >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
   color: #fff;
 }
 
-.home >>> .el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover, .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+.home >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;
 }
 </style>

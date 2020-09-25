@@ -1,5 +1,6 @@
 <template>
-  <el-row>
+  <div class="service-item">
+    <el-row>
     <el-card :body-style="{ padding: '0px' }">
       <img class="image1" :src="require('assets/imgs/home/ic_APP定制.png')" />
       <div style="padding: 14px;">
@@ -83,6 +84,7 @@
       </div>
     </el-card>
   </el-row>
+  </div>
 </template>
 
 <script>
@@ -92,33 +94,33 @@ export default {
 </script>
 
 <style scoped>
-.bottom {
+.service-item >>> .bottom {
   margin-top: 13px;
   line-height: 12px;
 }
 
-.image1 {
+.service-item >>> .image1 {
   width: 80px;
   height: 80px;
   display: inline-block;
   margin-top: 40px;
 }
 
-.clearfix:before,
+.service-item >>> .clearfix:before,
 .clearfix:after {
   display: table;
   content: "";
 }
 
-.clearfix:after {
+.service-item >>> .clearfix:after {
   clear: both;
 }
 
-.el-col-offset-5 {
+.service-item >>> .el-col-offset-5 {
   margin-left: 0;
   /* margin-top: 220px; */
 }
-.el-card.is-always-shadow,
+.service-item >>> .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
   width: 300px;
@@ -126,17 +128,17 @@ export default {
   display: inline-block;
 }
 
-.el-row {
+.service-item >>> .el-row {
   margin: 0 400px 80px 400px;
   /* display: inline-block; */
 }
 
-.el-card {
+.service-item >>> .el-card {
   margin: 20px;
   border-radius: 20px;
 }
 
-.title {
+.service-item >>> .title {
   font-family: "MicrosoftYaHei-Bold";
   font-size: 16px;
   font-weight: 900;
@@ -144,7 +146,7 @@ export default {
   margin-top: 8px;
 }
 
-.text {
+.service-item >>> .text {
   font-family: "MicrosoftYaHei";
   font-size: 14px;
   color: #000000;
@@ -152,7 +154,7 @@ export default {
   margin-top: 15px;
 }
 
-.content {
+.service-item >>> .content {
   font-family: 'MicrosoftYaHei';
   font-size: 14px;
   color: #AAAAAA;
