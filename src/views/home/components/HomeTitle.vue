@@ -1,16 +1,24 @@
 <template>
   <div class="home-title">
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
-    <el-menu-item index="1">首页</el-menu-item>
-    <el-menu-item index="2">网站开发</el-menu-item>
+    <el-menu
+      :default-active="this.$route.path"
+      class="el-menu-demo"
+      mode="horizontal"
+      router
+    >
+      <el-menu-item v-for="(item, i) in navList" :key="i" :index="item.name">
+        {{ item.navItem }}
+      </el-menu-item>
+      <!-- <el-menu-item index="1">首页</el-menu-item>
+    <el-menu-item index="2" @click="toWeb">网站开发</el-menu-item>
     <el-menu-item index="3">APP定制</el-menu-item>
     <el-menu-item index="4">软件开发</el-menu-item>
     <el-menu-item index="5">应用系统</el-menu-item>
     <el-menu-item index="6">精品案例</el-menu-item>
     <el-menu-item index="7">公司动态</el-menu-item>
     <el-menu-item index="8">诚聘英才</el-menu-item>
-    <el-menu-item index="9">关于我们</el-menu-item>
-  </el-menu>
+    <el-menu-item index="9">关于我们</el-menu-item> -->
+    </el-menu>
   </div>
 </template>
 
@@ -19,8 +27,21 @@ export default {
   name: "HomeTitle",
   data() {
     return {
-      activeIndex: "1",
+      navList: [
+        { name: "/home", navItem: "首页" },
+        { name: "/web", navItem: "网站开发" },
+        { name: "/custom", navItem: "APP定制" },
+        // { name: "/communityActivity", navItem: "社区动态" },
+        // { name: "/publishProject", navItem: "发布项目" },
+        // { name: "/personalCenter", navItem: "个人中心" },
+        // { name: "/manageCenter", navItem: "管理员中心" },
+      ],
     };
+  },
+  methods: {
+    toWeb() {
+      console.log("跳转到web页");
+    },
   },
 };
 </script>
@@ -47,7 +68,9 @@ export default {
   margin-left: 715px;
 }
 
-.home-title >>> .el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover, .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+.home-title >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;
 }
 </style>

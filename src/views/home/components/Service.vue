@@ -52,7 +52,7 @@ export default {
   user-select: none;
  margin: 0;
  top: 20px;
- left: 765px;
+ left: 725px;
 }
 
 .service >>> .service-icon {

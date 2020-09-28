@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="web">
     <el-container>
       <el-header>
         <logo />
@@ -7,28 +7,28 @@
       </el-header>
 
       <el-main>
-        <service />
+        <solution />
       </el-main>
 
       <el-footer class="footer1">
-        <advantage />
+        <process />
       </el-footer>
 
       <el-footer class="footer2">
-        <case />
+        <boutique />
       </el-footer>
 
-      <el-footer class="footer3">
+      <!-- <el-footer class="footer3">
         <company />
-      </el-footer>
+      </el-footer> -->
 
-      <el-footer class="footer4">
+      <!-- <el-footer class="footer4">
         <about />
-      </el-footer>
+      </el-footer> -->
 
-      <el-footer class="footer5">
+      <!-- <el-footer class="footer5">
         <recruitment />
-      </el-footer>
+      </el-footer> -->
 
       <el-footer class="footer6">
         <contact />
@@ -38,41 +38,41 @@
 </template>
 
 <script>
-import HomeTitle from "./components/HomeTitle";
-import Logo from "./components/Logo";
-import Service from "./components/Service";
-import Advantage from "./components/Advantage";
-import Case from "./components/Case";
-import Company from "./components/Company";
-import About from "./components/About";
-import Recruitment from "./components/Recruitment";
-import Contact from "./components/Contact"
+import HomeTitle from "views/home/components/HomeTitle";
+import Logo from "views/home/components/Logo";
+import Solution from "./components/Solution";
+import Process from "./components/Process";
+import Boutique from "./components/Boutique";
+// import Company from "views/home/components/Company";
+// import About from "views/home/components/About";
+// import Recruitment from "views/home/components/Recruitment";
+import Contact from "views/home/components/Contact"
 
 export default {
-  name: "Home",
+  name: "Web",
   components: {
     HomeTitle,
     Logo,
-    Service,
-    Advantage,
-    Case,
-    Company,
-    About,
-    Recruitment,
+    Solution,
+    Process,
+    Boutique,
+    // Company,
+    // About,
+    // Recruitment,
     Contact
   },
 };
 </script>
 
 <style scoped>
-.home >>> .el-header {
-  background: url("../../assets/imgs/home/banner.png");
+.web >>> .el-header {
+  background: url("../../assets/imgs/web/banner_网站开发.png");
   height: 700px !important;
   padding: 0;
   text-align: left;
 }
 
-.home >>> .el-main {
+.web >>> .el-main {
   background: url("../../assets/imgs/home/bg_我们的服务.png");
   height: 1200px !important;
   text-align: center;
@@ -81,7 +81,7 @@ export default {
   position: relative;
 }
 
-.home >>> .footer1 {
+.web >>> .footer1 {
   background: url("../../assets/imgs/home/bg_我们的优势.png");
   height: 700px !important;
   color: #fff;
@@ -90,7 +90,7 @@ export default {
   position: relative;
 }
 
-.home >>> .footer2 {
+.web >>> .footer2 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -98,7 +98,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer3 {
+.web >>> .footer3 {
   background: url("../../assets/imgs/home/bg_公司动态.png");
   height: 700px !important;
   position: relative;
@@ -106,7 +106,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer4 {
+.web >>> .footer4 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -114,7 +114,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer5 {
+.web >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
   height: 700px !important;
   position: relative;
@@ -122,7 +122,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer6 {
+.web >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
   height: 800px !important;
   position: relative;
@@ -130,32 +130,32 @@ export default {
   padding: 0;
 }
 
-.home >>> .el-aside {
+.web >>> .el-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-.home >>> body > .el-container {
+.web >>> body > .el-container {
   margin-bottom: 40px;
 }
 
-.home >>> .el-container:nth-child(5) .el-aside,
+.web >>> .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
   line-height: 260px;
 }
 
-.home >>> .el-container:nth-child(7) .el-aside {
+.web >>> .el-container:nth-child(7) .el-aside {
   line-height: 320px;
 }
 
-.home >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.web >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
   color: #fff;
 }
 
-.home >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.web >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
 .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;

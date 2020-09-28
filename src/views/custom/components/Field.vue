@@ -1,33 +1,33 @@
 <template>
-    <div class="advantage">
-      <div class="advantage-all">
-        <p class="advantage-title">我们的优势</p>
-        <p class="advantage-bg">OUR ADVANTAGE</p>
-        <div class="advantage-icon"></div>
-        <p class="little-advantage">OUR ADVANTAGE</p>
-      </div>
-      <advantage-item />
+  <div class="field">
+    <div class="field-all">
+      <p class="field-title">应用领域</p>
+      <p class="field-bg">APPLICATION FIELD</p>
+      <div class="field-icon"></div>
+      <p class="little-field">APPLICATION FIELDS</p>
     </div>
+    <field-item />
+  </div>
 </template>
 
 <script>
-import AdvantageItem from "./AdvantageItem";
+import FieldItem from "./FieldItem";
 
 export default {
-  name: "Advantage",
+  name: "Field",
   components: {
-    AdvantageItem,
+    FieldItem,
   },
 };
 </script>
 
 <style scoped>
-.advantage >>> .advantage-all {
+.field >>> .field-all {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
-.advantage >>> .advantage-title {
+.field >>> .field-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,11 +40,11 @@ export default {
   margin-top: 50px;
 }
 
-.advantage >>> .advantage-bg {
+.field >>> .field-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 47, 245, 0.2);
+  color: rgba(32, 47, 245, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -52,18 +52,18 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 650px;
+  left: 610px;
 }
 
-.advantage >>> .advantage-icon {
-  background-color: #fff;
+.field >>> .field-icon {
+  background-color: rgba(209, 209, 209, 1);
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.advantage >>> .little-advantage {
+.field >>> .little-field {
   margin-top: 36px;
   font-size: 12px;
 }

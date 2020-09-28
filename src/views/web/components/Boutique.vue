@@ -1,33 +1,34 @@
 <template>
-    <div class="advantage">
-      <div class="advantage-all">
-        <p class="advantage-title">我们的优势</p>
-        <p class="advantage-bg">OUR ADVANTAGE</p>
-        <div class="advantage-icon"></div>
-        <p class="little-advantage">OUR ADVANTAGE</p>
-      </div>
-      <advantage-item />
+  <div class="boutique">
+    <div class="boutique-all">
+      <p class="boutique-title">推荐案例</p>
+      <p class="boutique-bg">CASE</p>
+      <div class="boutique-icon"></div>
+      <p class="little-boutique">RECOMMENDED CASE</p>
     </div>
+
+    <boutique-item />
+  </div>
 </template>
 
 <script>
-import AdvantageItem from "./AdvantageItem";
+import BoutiqueItem from "./BoutiqueItem";
 
 export default {
-  name: "Advantage",
+  name: "Boutique",
   components: {
-    AdvantageItem,
+    BoutiqueItem,
   },
 };
 </script>
 
 <style scoped>
-.advantage >>> .advantage-all {
+.boutique >>> .boutique-all {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
-.advantage >>> .advantage-title {
+.boutique >>> .boutique-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,11 +41,11 @@ export default {
   margin-top: 50px;
 }
 
-.advantage >>> .advantage-bg {
+.boutique >>> .boutique-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 47, 245, 0.2);
+  color: rgba(32, 47, 245, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -52,18 +53,18 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 650px;
+  left: 865px;
 }
 
-.advantage >>> .advantage-icon {
-  background-color: #fff;
+.boutique >>> .boutique-icon {
+  background-color: rgba(209, 209, 209, 1);
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.advantage >>> .little-advantage {
+.boutique >>> .little-boutique {
   margin-top: 36px;
   font-size: 12px;
 }

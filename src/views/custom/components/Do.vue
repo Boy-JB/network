@@ -1,33 +1,33 @@
 <template>
-    <div class="advantage">
-      <div class="advantage-all">
-        <p class="advantage-title">我们的优势</p>
-        <p class="advantage-bg">OUR ADVANTAGE</p>
-        <div class="advantage-icon"></div>
-        <p class="little-advantage">OUR ADVANTAGE</p>
-      </div>
-      <advantage-item />
+  <div class="do">
+    <div class="do-all">
+      <p class="do-title">我们能做什么</p>
+      <p class="do-bg">WHAT CAN WE DO</p>
+      <div class="do-icon"></div>
+      <p class="little-do">WHAT CAN WE DO</p>
     </div>
+    <do-item />
+  </div>
 </template>
 
 <script>
-import AdvantageItem from "./AdvantageItem";
+import DoItem from "./Doitem";
 
 export default {
-  name: "Advantage",
+  name: "Service",
   components: {
-    AdvantageItem,
+    DoItem,
   },
 };
 </script>
 
 <style scoped>
-.advantage >>> .advantage-all {
+.do >>> .do-all {
   text-align: center;
   color: #ffffff;
 }
 
-.advantage >>> .advantage-title {
+.do >>> .do-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 50px;
 }
 
-.advantage >>> .advantage-bg {
+.do >>> .do-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -50,12 +50,12 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin: 0;
-  top: 20px;
-  left: 650px;
+ margin: 0;
+ top: 20px;
+ left: 610px;
 }
 
-.advantage >>> .advantage-icon {
+.do >>> .do-icon {
   background-color: #fff;
   width: 40px;
   height: 4px;
@@ -63,7 +63,7 @@ export default {
   margin: 0 auto;
 }
 
-.advantage >>> .little-advantage {
+.do >>> .little-do {
   margin-top: 36px;
   font-size: 12px;
 }

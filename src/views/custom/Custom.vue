@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="custom">
     <el-container>
       <el-header>
         <logo />
@@ -7,28 +7,32 @@
       </el-header>
 
       <el-main>
-        <service />
+        <do />
       </el-main>
 
       <el-footer class="footer1">
-        <advantage />
+        <application />
       </el-footer>
 
       <el-footer class="footer2">
-        <case />
+        <field />
+        <!-- <case /> -->
       </el-footer>
 
       <el-footer class="footer3">
-        <company />
+        <!-- <company /> -->
+        <customization />
       </el-footer>
 
       <el-footer class="footer4">
-        <about />
+        <!-- <about /> -->
+        <boutique />
       </el-footer>
 
-      <el-footer class="footer5">
+      <!-- <el-footer class="footer5">
         <recruitment />
-      </el-footer>
+        
+      </el-footer> -->
 
       <el-footer class="footer6">
         <contact />
@@ -38,51 +42,52 @@
 </template>
 
 <script>
-import HomeTitle from "./components/HomeTitle";
-import Logo from "./components/Logo";
-import Service from "./components/Service";
-import Advantage from "./components/Advantage";
-import Case from "./components/Case";
-import Company from "./components/Company";
-import About from "./components/About";
-import Recruitment from "./components/Recruitment";
-import Contact from "./components/Contact"
+import HomeTitle from "views/home/components/HomeTitle";
+import Logo from "views/home/components/Logo";
+import Do from "./components/Do";
+import Application from "./components/Application";
+import Field from "./components/Field"
+// import Case from "./components/Case";
+// import Company from "views/home/components/Company";
+import Customization from "./components/Customization";
+// import Recruitment from "views/home/components/Recruitment";
+import Boutique from "views/web/components/Boutique";
+import Contact from "views/home/components/Contact";
 
 export default {
-  name: "Home",
+  name: "Custom",
   components: {
     HomeTitle,
     Logo,
-    Service,
-    Advantage,
-    Case,
-    Company,
-    About,
-    Recruitment,
-    Contact
+    Do,
+    Application,
+    Customization,
+    Boutique,
+    Contact,
+    Field
   },
 };
 </script>
 
 <style scoped>
-.home >>> .el-header {
-  background: url("../../assets/imgs/home/banner.png");
+.custom >>> .el-header {
+  background: url("../../assets/imgs/app/banner.png");
   height: 700px !important;
   padding: 0;
   text-align: left;
 }
 
-.home >>> .el-main {
+.custom >>> .el-main {
   background: url("../../assets/imgs/home/bg_我们的服务.png");
-  height: 1200px !important;
+  height: 1000px !important;
   text-align: center;
   overflow: visible;
   padding: 0;
   position: relative;
 }
 
-.home >>> .footer1 {
-  background: url("../../assets/imgs/home/bg_我们的优势.png");
+.custom >>> .footer1 {
+  background: url("../../assets/imgs/app/bg_我们的优势.png");
   height: 700px !important;
   color: #fff;
   text-align: center;
@@ -90,7 +95,7 @@ export default {
   position: relative;
 }
 
-.home >>> .footer2 {
+.custom >>> .footer2 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -98,7 +103,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer3 {
+.custom >>> .footer3 {
   background: url("../../assets/imgs/home/bg_公司动态.png");
   height: 700px !important;
   position: relative;
@@ -106,7 +111,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer4 {
+.custom >>> .footer4 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -114,7 +119,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer5 {
+.custom >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
   height: 700px !important;
   position: relative;
@@ -122,7 +127,7 @@ export default {
   padding: 0;
 }
 
-.home >>> .footer6 {
+.custom >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
   height: 800px !important;
   position: relative;
@@ -130,32 +135,32 @@ export default {
   padding: 0;
 }
 
-.home >>> .el-aside {
+.custom >>> .el-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-.home >>> body > .el-container {
+.custom >>> body > .el-container {
   margin-bottom: 40px;
 }
 
-.home >>> .el-container:nth-child(5) .el-aside,
+.custom >>> .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
   line-height: 260px;
 }
 
-.home >>> .el-container:nth-child(7) .el-aside {
+.custom >>> .el-container:nth-child(7) .el-aside {
   line-height: 320px;
 }
 
-.home >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.custom >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
   color: #fff;
 }
 
-.home >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.custom >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
 .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;

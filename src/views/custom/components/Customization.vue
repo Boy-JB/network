@@ -1,33 +1,33 @@
 <template>
-    <div class="advantage">
-      <div class="advantage-all">
-        <p class="advantage-title">我们的优势</p>
-        <p class="advantage-bg">OUR ADVANTAGE</p>
-        <div class="advantage-icon"></div>
-        <p class="little-advantage">OUR ADVANTAGE</p>
+    <div class="customization">
+      <div class="customization-all">
+        <p class="customization-title">建站流程</p>
+        <p class="customization-bg">PROCESS</p>
+        <div class="customization-icon"></div>
+        <p class="little-customization">PROCESS</p>
       </div>
-      <advantage-item />
+      <customization-item />
     </div>
 </template>
 
 <script>
-import AdvantageItem from "./AdvantageItem";
+import CustomizationItem from "./CustomizationItem";
 
 export default {
-  name: "Advantage",
+  name: "Customization",
   components: {
-    AdvantageItem,
+    CustomizationItem,
   },
 };
 </script>
 
 <style scoped>
-.advantage >>> .advantage-all {
+.customization >>> .customization-all {
   text-align: center;
   color: #ffffff;
 }
 
-.advantage >>> .advantage-title {
+.customization >>> .customization-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 50px;
 }
 
-.advantage >>> .advantage-bg {
+.customization >>> .customization-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -52,10 +52,10 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 650px;
+  left: 790px;
 }
 
-.advantage >>> .advantage-icon {
+.customization >>> .customization-icon {
   background-color: #fff;
   width: 40px;
   height: 4px;
@@ -63,7 +63,7 @@ export default {
   margin: 0 auto;
 }
 
-.advantage >>> .little-advantage {
+.customization >>> .little-customization {
   margin-top: 36px;
   font-size: 12px;
 }
