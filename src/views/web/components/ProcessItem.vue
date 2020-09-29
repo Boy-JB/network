@@ -5,28 +5,38 @@
         <el-carousel-item>
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_ 01了解客户意向.png')" />
+              <el-image
+                :src="
+                  require('../../../assets/imgs/web/ic_ 01了解客户意向.png')
+                "
+              />
               <p class="demonstration">了解客户意向</p>
             </div>
           </div>
 
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_02提交整体方案.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_02提交整体方案.png')"
+              />
               <p class="demonstration">提交整体方案</p>
             </div>
           </div>
 
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_03确定合作方案.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_03确定合作方案.png')"
+              />
               <p class="demonstration">确定合作方案</p>
             </div>
           </div>
 
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_04前端页面设计.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_04前端页面设计.png')"
+              />
               <p class="demonstration">前端页面设计</p>
             </div>
           </div>
@@ -34,25 +44,35 @@
         <el-carousel-item>
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_ 05后端程序开发.png')" />
+              <el-image
+                :src="
+                  require('../../../assets/imgs/web/ic_ 05后端程序开发.png')
+                "
+              />
               <p class="demonstration">后端程序开发</p>
             </div>
           </div>
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_06客户内测验收.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_06客户内测验收.png')"
+              />
               <p class="demonstration">客户内测验收</p>
             </div>
           </div>
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_07交付上线使用.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_07交付上线使用.png')"
+              />
               <p class="demonstration">交付上线使用</p>
             </div>
           </div>
           <div class="demo-image__placeholder">
             <div class="block">
-              <el-image :src="require('../../../assets/imgs/web/ic_08终身技术支持.png')" />
+              <el-image
+                :src="require('../../../assets/imgs/web/ic_08终身技术支持.png')"
+              />
               <p class="demonstration">终身技术支持</p>
             </div>
           </div>
@@ -117,10 +137,6 @@ export default {
 
 .process-item {
   margin-top: 133px;
-}
-
-.process-item >>> .demo-image__placeholder {
-  margin: 0 75px 0 75px;
 }
 
 .process-item >>> .demonstration {

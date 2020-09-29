@@ -4,6 +4,9 @@ import VueRouter from 'vue-router'
 const Home = () => import("views/home/Home.vue")
 const Web = () => import("views/web/Web.vue")
 const Custom = () => import("views/custom/Custom.vue")
+const Software = () => import("views/software/Software.vue")
+const System = () => import("views/system/System.vue")
+const Case = () => import("views/case/Case.vue")
 
 Vue.use(VueRouter)
 
@@ -26,6 +29,21 @@ const routes = [
     path: "/custom",
     name: "custom",
     component: Custom
+  },
+  {
+    path: "/software",
+    name: "software",
+    component: Software
+  },
+  {
+    path: "/system",
+    name: "system",
+    component: System
+  },
+  {
+    path: "/case",
+    name: "case",
+    component: Case
   },
 ]
 
