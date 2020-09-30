@@ -56,7 +56,7 @@ export default {
 }
 
 .type >>> .type-icon {
-  background-color: rgba(209, 209, 209, 1);
+  background-color: #ddd;
   width: 40px;
   height: 4px;
   border-radius: 2px;

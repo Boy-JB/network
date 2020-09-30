@@ -1,34 +1,33 @@
 <template>
-  <div class="case">
-    <div class="case-all">
-      <p class="case-title">推荐案例</p>
-      <p class="case-bg">CASE</p>
-      <div class="case-icon"></div>
-      <p class="little-case">CASE</p>
+    <div class="advantage">
+      <div class="advantage-all">
+        <p class="advantage-title">我们的优势</p>
+        <p class="advantage-bg">OUR ADVANTAGE</p>
+        <div class="advantage-icon"></div>
+        <p class="little-advantage">OUR ADVANTAGE</p>
+      </div>
+      <advantage-item />
     </div>
-
-    <case-item />
-  </div>
 </template>
 
 <script>
-import CaseItem from "./CaseItem";
+import AdvantageItem from "./AdvantageItem";
 
 export default {
-  name: "Case",
+  name: "Advantage",
   components: {
-    CaseItem,
+    AdvantageItem,
   },
 };
 </script>
 
 <style scoped>
-.case >>> .case-all {
+.advantage >>> .advantage-all {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
-.case >>> .case-title {
+.advantage >>> .advantage-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -41,11 +40,11 @@ export default {
   margin-top: 50px;
 }
 
-.case >>> .case-bg {
+.advantage >>> .advantage-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 48, 245, 0.2);
+  color: rgba(32, 47, 245, 0.2);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -53,18 +52,18 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 865px;
+  left: 650px;
 }
 
-.case >>> .case-icon {
-  background-color:#fff;
+.advantage >>> .advantage-icon {
+  background-color: #fff;
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.case >>> .little-case {
+.advantage >>> .little-advantage {
   margin-top: 36px;
   font-size: 12px;
 }

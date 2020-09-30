@@ -12,14 +12,14 @@
       <el-menu-item index="4">订单管理</el-menu-item>
     </el-menu>
 
-    <div
+    <!-- <div
       class="demo-image__placeholder"
      
     >
       <div class="block" >
         <el-image :src="boutique"></el-image>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

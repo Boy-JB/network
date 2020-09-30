@@ -7,6 +7,9 @@ const Custom = () => import("views/custom/Custom.vue")
 const Software = () => import("views/software/Software.vue")
 const System = () => import("views/system/System.vue")
 const Case = () => import("views/case/Case.vue")
+const Company = () => import("views/company/Company.vue")
+const Recruitment =  () => import("views/recruitment/Recruitment.vue")
+const About =  () => import("views/about/About.vue")
 
 Vue.use(VueRouter)
 
@@ -44,6 +47,21 @@ const routes = [
     path: "/case",
     name: "case",
     component: Case
+  },
+  {
+    path: "/company",
+    name: "company",
+    component: Company
+  },
+  {
+    path: "/recruitment",
+    name: "recruitment",
+    component: Recruitment
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: About
   },
 ]
 

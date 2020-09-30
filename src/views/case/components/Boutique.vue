@@ -44,7 +44,7 @@ export default {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(210, 210, 210, 0.2);
+  color: rgba(32, 47, 244, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -56,7 +56,7 @@ export default {
 }
 
 .boutique >>> .boutique-icon {
-  background-color: #fff;
+  background: #d1d1d1;
   width: 40px;
   height: 4px;
   border-radius: 2px;

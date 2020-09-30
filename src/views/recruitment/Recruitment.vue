@@ -1,5 +1,5 @@
 <template>
-  <div class="case">
+  <div class="recruitment">
     <el-container>
       <el-header>
         <logo />
@@ -15,7 +15,7 @@
       </el-footer> -->
 
       <el-footer class="footer2">
-        <boutique />
+        <want />
       </el-footer>
       <!-- 
       <el-footer class="footer3">
@@ -40,29 +40,29 @@
 <script>
 import HomeTitle from "views/home/components/HomeTitle";
 import Logo from "views/home/components/Logo";
-import Boutique from "./components/Boutique";
+import Want from "./components/Want";
 import Contact from "views/home/components/Contact";
 
 export default {
-  name: "Case",
+  name: "Recruitment",
   components: {
     HomeTitle,
     Logo,
-    Boutique,
+    Want,
     Contact,
   },
 };
 </script>
 
 <style scoped>
-.case >>> .el-header {
-  background: url("../../assets/imgs/case/banner.png");
+.recruitment >>> .el-header {
+  background: url("../../assets/imgs/recruitment/banner.png");
   height: 700px !important;
   padding: 0;
   text-align: left;
 }
 
-.case >>> .el-main {
+.recruitment >>> .el-main {
   background: url("../../assets/imgs/home/bg_我们的服务.png");
   height: 1200px !important;
   text-align: center;
@@ -71,7 +71,7 @@ export default {
   position: relative;
 }
 
-.case >>> .footer1 {
+.recruitment >>> .footer1 {
   background: url("../../assets/imgs/home/bg_我们的优势.png");
   height: 700px !important;
   color: #fff;
@@ -80,15 +80,15 @@ export default {
   position: relative;
 }
 
-.case >>> .footer2 {
+.recruitment >>> .footer2 {
   background: #f9f9f9;
-  height: 2400px !important;
+  height: 700px !important;
   position: relative;
   text-align: center;
   padding: 0;
 }
 
-.case >>> .footer3 {
+.recruitment >>> .footer3 {
   background: url("../../assets/imgs/home/bg_公司动态.png");
   height: 700px !important;
   position: relative;
@@ -96,7 +96,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer4 {
+.recruitment >>> .footer4 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -104,7 +104,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer5 {
+.recruitment >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
   height: 700px !important;
   position: relative;
@@ -112,7 +112,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer6 {
+.recruitment >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
   height: 800px !important;
   position: relative;
@@ -120,32 +120,32 @@ export default {
   padding: 0;
 }
 
-.case >>> .el-aside {
+.recruitment >>> .el-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-.case >>> body > .el-container {
+.recruitment >>> body > .el-container {
   margin-bottom: 40px;
 }
 
-.case >>> .el-container:nth-child(5) .el-aside,
+.recruitment >>> .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
   line-height: 260px;
 }
 
-.case >>> .el-container:nth-child(7) .el-aside {
+.recruitment >>> .el-container:nth-child(7) .el-aside {
   line-height: 320px;
 }
 
-.case >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.recruitment >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
   color: #fff;
 }
 
-.case >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.recruitment >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
 .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;

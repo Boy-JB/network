@@ -34,10 +34,9 @@ export default {
         { name: "/software", navItem: "软件开发" },
         { name: "/system", navItem: "应用系统" },
         { name: "/case", navItem: "精品案例" },
-        // { name: "/communityActivity", navItem: "社区动态" },
-        // { name: "/publishProject", navItem: "发布项目" },
-        // { name: "/personalCenter", navItem: "个人中心" },
-        // { name: "/manageCenter", navItem: "管理员中心" },
+        { name: "/company", navItem: "公司动态" },
+        { name: "/recruitment", navItem: "诚聘英才" },
+        { name: "/about", navItem: "关于我们" },
       ],
     };
   },

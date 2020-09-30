@@ -1,34 +1,33 @@
 <template>
-  <div class="case">
-    <div class="case-all">
-      <p class="case-title">推荐案例</p>
-      <p class="case-bg">CASE</p>
-      <div class="case-icon"></div>
-      <p class="little-case">CASE</p>
+  <div class="overview">
+    <div class="overview-all">
+      <p class="overview-title">公司概况</p>
+      <p class="overview-bg">OVERVIEW</p>
+      <div class="overview-icon"></div>
+      <p class="little-overview">OVERVIEW</p>
     </div>
-
-    <case-item />
+    <overview-item />
   </div>
 </template>
 
 <script>
-import CaseItem from "./CaseItem";
+import OverviewItem from "./OverviewItem";
 
 export default {
-  name: "Case",
+  name: "Overview",
   components: {
-    CaseItem,
+    OverviewItem,
   },
 };
 </script>
 
 <style scoped>
-.case >>> .case-all {
+.overview >>> .overview-all {
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
-.case >>> .case-title {
+.overview >>> .overview-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -41,11 +40,11 @@ export default {
   margin-top: 50px;
 }
 
-.case >>> .case-bg {
+.overview >>> .overview-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 48, 245, 0.2);
+  color: rgba(32, 47, 244, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -53,18 +52,18 @@ export default {
   user-select: none;
   margin: 0;
   top: 20px;
-  left: 865px;
+  left: 770px;
 }
 
-.case >>> .case-icon {
-  background-color:#fff;
+.overview >>> .overview-icon {
+  background: #d1d1d1;
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.case >>> .little-case {
+.overview >>> .little-overview {
   margin-top: 36px;
   font-size: 12px;
 }

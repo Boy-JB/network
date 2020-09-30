@@ -1,5 +1,5 @@
 <template>
-  <div class="case">
+  <div class="company">
     <el-container>
       <el-header>
         <logo />
@@ -15,10 +15,10 @@
       </el-footer> -->
 
       <el-footer class="footer2">
-        <boutique />
+        
       </el-footer>
-      <!-- 
-      <el-footer class="footer3">
+
+      <!-- <el-footer class="footer3">
         <company />
       </el-footer> -->
 
@@ -40,29 +40,39 @@
 <script>
 import HomeTitle from "views/home/components/HomeTitle";
 import Logo from "views/home/components/Logo";
-import Boutique from "./components/Boutique";
-import Contact from "views/home/components/Contact";
+// import Service from "./components/Service";
+// import Advantage from "./components/Advantage";
+// import Case from "./components/Case";
+// import Company from "./components/Company";
+// import About from "./components/About";
+// import Recruitment from "./components/Recruitment";
+import Contact from "views/home/components/Contact"
 
 export default {
-  name: "Case",
+  name: "Company",
   components: {
     HomeTitle,
     Logo,
-    Boutique,
-    Contact,
+    // Service,
+    // Advantage,
+    // Case,
+    // Company,
+    // About,
+    // Recruitment,
+    Contact
   },
 };
 </script>
 
 <style scoped>
-.case >>> .el-header {
-  background: url("../../assets/imgs/case/banner.png");
+.company >>> .el-header {
+  background: url("../../assets/imgs/company/banner.png");
   height: 700px !important;
   padding: 0;
   text-align: left;
 }
 
-.case >>> .el-main {
+.company >>> .el-main {
   background: url("../../assets/imgs/home/bg_我们的服务.png");
   height: 1200px !important;
   text-align: center;
@@ -71,7 +81,7 @@ export default {
   position: relative;
 }
 
-.case >>> .footer1 {
+.company >>> .footer1 {
   background: url("../../assets/imgs/home/bg_我们的优势.png");
   height: 700px !important;
   color: #fff;
@@ -80,15 +90,15 @@ export default {
   position: relative;
 }
 
-.case >>> .footer2 {
-  background: #f9f9f9;
+.company >>> .footer2 {
+  background-color: #fafafa;
   height: 2400px !important;
   position: relative;
   text-align: center;
   padding: 0;
 }
 
-.case >>> .footer3 {
+.company >>> .footer3 {
   background: url("../../assets/imgs/home/bg_公司动态.png");
   height: 700px !important;
   position: relative;
@@ -96,7 +106,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer4 {
+.company >>> .footer4 {
   background-color: #fafafa;
   height: 800px !important;
   position: relative;
@@ -104,7 +114,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer5 {
+.company >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
   height: 700px !important;
   position: relative;
@@ -112,7 +122,7 @@ export default {
   padding: 0;
 }
 
-.case >>> .footer6 {
+.company >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
   height: 800px !important;
   position: relative;
@@ -120,32 +130,32 @@ export default {
   padding: 0;
 }
 
-.case >>> .el-aside {
+.company >>> .el-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-.case >>> body > .el-container {
+.company >>> body > .el-container {
   margin-bottom: 40px;
 }
 
-.case >>> .el-container:nth-child(5) .el-aside,
+.company >>> .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
   line-height: 260px;
 }
 
-.case >>> .el-container:nth-child(7) .el-aside {
+.company >>> .el-container:nth-child(7) .el-aside {
   line-height: 320px;
 }
 
-.case >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.company >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
   color: #fff;
 }
 
-.case >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.company >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
 .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: transparent;

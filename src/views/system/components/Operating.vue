@@ -56,7 +56,7 @@ export default {
 }
 
 .operating >>> .operating-icon {
-  background-color: #fff;
+  background: #d1d1d1;
   width: 40px;
   height: 4px;
   border-radius: 2px;
