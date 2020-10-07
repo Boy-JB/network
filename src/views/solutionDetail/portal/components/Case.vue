@@ -1,36 +1,34 @@
 <template>
-  <div class="solution">
-    <div class="solution-all">
-      <p class="solution-title">解决方案</p>
-      <p class="solution-bg">SOLUTION</p>
-      <div class="solution-icon"></div>
-      <p class="little-solution">SOLUTION</p>
+  <div class="case">
+    <div class="case-all">
+      <p class="case-title">精品案例</p>
+      <p class="case-bg">BOUTIQUE CASE</p>
+      <div class="case-icon"></div>
+      <p class="little-case">BOUTIQUE CASE</p>
     </div>
-    <solution-item />
+
+    <case-item />
   </div>
 </template>
 
 <script>
-import SolutionItem from "./SolutionItem";
+import CaseItem from "./CaseItem";
 
 export default {
-  name: "Solution",
-  methods: {
-
-  },
+  name: "Case",
   components: {
-    SolutionItem,
+    CaseItem,
   },
 };
 </script>
 
 <style scoped>
-.solution >>> .solution-all {
+.case >>> .case-all {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
-.solution >>> .solution-title {
+.case >>> .case-title {
   font-size: 36px;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -43,30 +41,30 @@ export default {
   margin-top: 50px;
 }
 
-.solution >>> .solution-bg {
+.case >>> .case-bg {
   font-size: 70px;
   font-family: Microsoft YaHei;
   font-weight: 400;
-  color: rgba(32, 47, 245, 0.2);
+  color: rgba(32, 47, 245, 0.04);
   position: absolute;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
- margin: 0;
- top: 20px;
- left: 778px;
+  margin: 0;
+  top: 20px;
+  left: 680px;
 }
 
-.solution >>> .solution-icon {
-  background-color: #fff;
+.case >>> .case-icon {
+  background-color: rgba(209, 209, 209, 1);
   width: 40px;
   height: 4px;
   border-radius: 2px;
   margin: 0 auto;
 }
 
-.solution >>> .little-solution {
+.case >>> .little-case {
   margin-top: 36px;
   font-size: 12px;
 }

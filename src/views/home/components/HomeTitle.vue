@@ -36,15 +36,13 @@ export default {
         { name: "/case", navItem: "精品案例" },
         { name: "/company", navItem: "公司动态" },
         { name: "/recruitment", navItem: "诚聘英才" },
+        // { name: "/recruitmen/joinDetails", navItem: "诚聘英才" },
         { name: "/about", navItem: "关于我们" },
       ],
     };
   },
-  methods: {
-    toWeb() {
-      console.log("跳转到web页");
-    },
-  },
+  methods: {},
+  computed: {},
 };
 </script>
 

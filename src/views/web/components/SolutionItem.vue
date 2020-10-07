@@ -1,8 +1,8 @@
 <template>
   <div class="solution-item">
-    <el-row>
-      <el-card :body-style="{ padding: '0px' }">
-        <img class="image1" :src="require('../../../assets/imgs/web/img_框.png')" />
+    <el-row >
+      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick1">
+        <img class="image1" :src="require('../../../assets/imgs/web/img_框.png')"  />
         <div style="padding: 14px; margin-top: 16px">
           <span class="title">全网H5响应式 自适应</span>
           <p class="content">
@@ -13,7 +13,7 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick2">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
@@ -56,7 +56,7 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick5">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
@@ -90,6 +90,20 @@
 <script>
 export default {
   name: "SolutionItem",
+  methods: {
+    cardClick1() {
+      console.log("==========");
+      this.$router.push("/web/h5");
+    },
+    cardClick2() {
+      console.log("==========");
+      this.$router.push("/web/mobile");
+    },
+    cardClick5() {
+      console.log("==========");
+      this.$router.push("/web/brand");
+    }
+  },
 };
 </script>
 
@@ -136,6 +150,7 @@ export default {
 .solution-item >>> .el-card {
   margin: 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .solution-item >>> .title {

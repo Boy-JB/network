@@ -1,5 +1,5 @@
 <template>
-  <div class="want-item">
+  <div class="want-item" @click="wantClick">
     <div class="block">
       <el-carousel height="400px">
         <el-carousel-item>
@@ -112,6 +112,11 @@
 <script>
 export default {
   name: "WantItem",
+  methods: {
+    wantClick() {
+      this.$router.push("/recruitmen/joinDetails");
+    }
+  },
 };
 </script>
 
@@ -147,6 +152,7 @@ export default {
   width: 200px;
   margin: 10px;
   display: inline-block;
+  cursor:pointer;
 }
 
 .want-item >>> .el-image {
