@@ -1,16 +1,34 @@
 <template>
   <div class="boutique-item">
-    <el-menu
-      :default-active="activeIndex"
-      class="el-menu-demo"
-      mode="horizontal"
-      @select="handleSelect"
-    >
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="2">处理中心 </el-menu-item>
-      <el-menu-item index="3">消息中心</el-menu-item>
-      <el-menu-item index="4">订单管理</el-menu-item>
-    </el-menu>
+    <el-tabs v-model="activeName" @tab-click="handleClick">
+      <el-tab-pane label="全部案例" name="1">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="全网响应式" name="2">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="移动微门户" name="3">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="行业门户型" name="4">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="品牌展示型" name="5">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="企业宣传型" name="6">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="电子商城型" name="7">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="移动APP" name="8">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+      <el-tab-pane label="系统软件类" name="9">
+        <img :src="item.url" alt="" v-for="(item, index) in carouselData" :key="index">
+      </el-tab-pane>
+    </el-tabs>
 
     <!-- <div
       class="demo-image__placeholder"
@@ -28,49 +46,29 @@ export default {
   name: "OperatingItem",
   data() {
     return {
-      boutique: {
-        page1: [
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-        ],
-        page2: [
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-          { url: require("assets/imgs/home/img_案例.png") },
-        ]
-      },
-      activeIndex: "1",
+      activeName: "1",
+      carouselData:[
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      {url:require('../../../assets/imgs/home/img_案例.png'),title:'你看我叼吗1',id:1},
+      ]
     };
   },
   methods: {
-    handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-      console.log(this.boutique.page1);
+    handleClick(tab, event) {
+      console.log(tab, event);
     },
   },
 };
@@ -78,8 +76,8 @@ export default {
 
 <style scoped>
 .boutique-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .boutique-item >>> .image1 {
@@ -98,48 +96,48 @@ export default {
 
 .boutique-item >>> .el-col-offset-5 {
   margin-left: 0;
-  /* margin-top: 220px; */
+  /* margin-top: 13.75rem; */
 }
 .boutique-item >>> .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
-  width: 300px;
-  height: 420px;
+  width: 18.75rem;
+  height: 26.25rem;
   display: inline-block;
 }
 
 .boutique-item >>> .el-row {
-  margin: 0 400px 80px 400px;
+  margin: 0 25rem 5rem 25rem;
   /* display: inline-block; */
 }
 
 .boutique-item >>> .el-card {
-  margin: 20px;
-  border-radius: 20px;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
 }
 
 .boutique-item >>> .title {
   font-family: "MicrosoftYaHei-Bold";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 900;
   color: #000000;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .boutique-item >>> .text {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000000;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .boutique-item >>> .content {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #aaaaaa;
-  margin: 9px;
-  line-height: 30px;
+  margin: 0.5625rem;
+  line-height: 1.875rem;
 }
 
 .boutique-item >>> .el-button--primary {
@@ -148,13 +146,13 @@ export default {
 }
 
 .boutique-item >>> .time {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #999;
 }
 
 .boutique-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .boutique-item >>> .button {
@@ -178,20 +176,81 @@ export default {
 }
 
 .boutique-item >>> .bottom.clearfix {
-  height: 100px;
+  height: 6.25rem;
   position: relative;
 }
 
 .boutique-item >>> .el-button.el-button--primary.is-round {
   position: absolute;
-  top: 5px;
-  left: 50px;
-  right: 50px;
-  margin: 5px auto;
+  top: 0.3125rem;
+  left: 3.125rem;
+  right: 3.125rem;
+  margin: 0.3125rem auto;
 }
 
 .boutique-item >>> .demo-image__placeholder {
   display: inline-block;
-  width: 500px;
+  width: 31.25rem;
+}
+
+.boutique-item >>> .el-menu {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.boutique-item >>> .el-menu--horizontal > .el-menu-item {
+  color: #000000;
+}
+
+.boutique-item >>> .el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom-color: rgba(210, 210, 210, 1);
+}
+
+.boutique-item >>> .el-menu.el-menu--horizontal {
+  border-bottom-color: transparent;
+}
+
+.boutique-item >>> .el-menu-item:hover {
+  color: #000 !important;
+  background-color: transparent;
+}
+
+.boutique-item >>> .el-menu-item:not(.is-disabled):focus {
+  color: #000 !important;
+}
+
+.boutique-item >>> .el-tabs.el-tabs--top {
+  /* display: inline-block; */
+  margin: 0 auto;
+}
+
+.boutique-item >>> .el-tabs__item.is-active {
+  color: #000;
+}
+
+.boutique-item >>> .el-tabs__item:hover {
+  color: #000;
+}
+
+.boutique-item >>> .el-tabs__active-bar {
+  background-color: rgba(209, 209, 209, 1);
+  height: 4px;
+  border-radius: 2px;
+}
+
+.boutique-item >>> .el-tabs__nav-wrap::after {
+  background-color: transparent;
+}
+
+.boutique-item >>> .el-tabs__nav {
+  float: none;
+}
+
+.boutique-item >>> .el-tabs__nav-scroll {
+  display: inline-block;
+}
+
+.boutique-item >>> .el-tabs__nav-wrap.is-top {
+  margin: 72px 0 59px 0;
 }
 </style>

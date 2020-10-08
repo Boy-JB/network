@@ -46,22 +46,22 @@ export default {
 }
 
 .contact-item >>> .title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 0;
 }
 
 .contact-item >>> .text {
-  font-size: 14px;
-  line-height: 36px;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
   text-align: left;
-  margin-bottom: 11px;
+  margin-bottom: 0.6875rem;
   margin-top: 0;
 }
 
 .contact-item >>> .all {
-  width: 591px;
-  height: 124px;
+  width: 36.9375rem;
+  height: 7.75rem;
   text-align: left;
 }
 
@@ -70,12 +70,12 @@ export default {
 }
 
 .contact-item >>> .contant {
-  margin-top: 25px;
+  margin-top: 1.5625rem;
   display: inline-block;
-  width: 591px;
+  width: 36.9375rem;
 }
 
 .contact-item >>> .logo {
-  margin-bottom: 31px;
+  margin-bottom: 1.9375rem;
 }
 </style>

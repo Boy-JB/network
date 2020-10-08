@@ -1,9 +1,9 @@
 <template>
   <div class="service-item">
     <el-row>
-    <el-card :body-style="{ padding: '0px' }">
+    <el-card :body-style="{ padding: '0rem' }">
       <img class="image1" :src="require('assets/imgs/home/ic_APP定制.png')" />
-      <div style="padding: 14px;">
+      <div style="padding: 0.875rem;">
         <span class="title">APP定制</span>
         <p class="text">专业、高效、放心的APP定制服务</p>
         <p class="content">
@@ -17,9 +17,9 @@
       </div>
     </el-card>
 
-    <el-card :body-style="{ padding: '0px' }">
+    <el-card :body-style="{ padding: '0rem' }">
       <img class="image1" :src="require('assets/imgs/home/ic_网站开发.png')" />
-      <div style="padding: 14px;">
+      <div style="padding: 0.875rem;">
         <span class="title">网站开发</span>
         <p class="text">提供各类网站特色定制建设服务</p>
         <p class="content">
@@ -33,9 +33,9 @@
       </div>
     </el-card>
 
-    <el-card :body-style="{ padding: '0px' }">
+    <el-card :body-style="{ padding: '0rem' }">
       <img class="image1" :src="require('assets/imgs/home/ic_软件开发.png')" />
-      <div style="padding: 14px;">
+      <div style="padding: 0.875rem;">
         <span class="title">软件开发</span>
         <p class="text">专业、高度定制的软件开发</p>
         <p class="content">
@@ -49,9 +49,9 @@
       </div>
     </el-card>
 
-    <el-card :body-style="{ padding: '0px' }">
+    <el-card :body-style="{ padding: '0rem' }">
       <img class="image1" :src="require('assets/imgs/home/ic_企业云邮.png')" />
-      <div style="padding: 14px;">
+      <div style="padding: 0.875rem;">
         <span class="title">企业云邮</span>
         <p class="text">为各行业提供专业文档可靠的企业邮局</p>
         <p class="content">
@@ -65,12 +65,12 @@
       </div>
     </el-card>
 
-    <el-card :body-style="{ padding: '0px' }">
+    <el-card :body-style="{ padding: '0rem' }">
       <img
         class="image1"
         :src="require('assets/imgs/home/ic_网站、APP专用空间.png')"
       />
-      <div style="padding: 14px;">
+      <div style="padding: 0.875rem;">
         <span class="title">网站、APP、软件专用空间</span>
         <p class="text">高安全性、高稳定性的虚拟主机</p>
         <p class="content">
@@ -95,15 +95,15 @@ export default {
 
 <style scoped>
 .service-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .service-item >>> .image1 {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .service-item >>> .clearfix:before,
@@ -118,47 +118,47 @@ export default {
 
 .service-item >>> .el-col-offset-5 {
   margin-left: 0;
-  /* margin-top: 220px; */
+  /* margin-top: 13.75rem; */
 }
 .service-item >>> .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
-  width: 300px;
-  height: 420px;
+  width: 18.75rem;
+  height: 26.25rem;
   display: inline-block;
 }
 
 .service-item >>> .el-row {
-  margin: 0 400px 80px 400px;
+  margin: 0 25rem 5rem 25rem;
   /* display: inline-block; */
 }
 
 .service-item >>> .el-card {
-  margin: 20px;
-  border-radius: 20px;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
 }
 
 .service-item >>> .title {
   font-family: "MicrosoftYaHei-Bold";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 900;
   color: #000000;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .service-item >>> .text {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000000;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .service-item >>> .content {
   font-family: 'MicrosoftYaHei';
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #AAAAAA;
-  margin-top: 9px;
-  line-height: 30px;
+  margin-top: 0.5625rem;
+  line-height: 1.875rem;
 }
 </style>

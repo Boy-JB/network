@@ -1,33 +1,33 @@
 <template>
-  <div class="brand">
-     <div class="brand-all">
-      <p class="brand-title">品牌展示型（H5）</p>
-      <div class="brand-icon"></div>
-      <p class="little-brand">着重展示企业文化和品牌特色，强调创意设计与文化的结合，能通过视觉感官的冲击，<br />令目标受众对品牌产生深刻而美好的印象。使品牌形象走向新时代。</p>
+  <div class="portal">
+     <div class="portal-all">
+      <p class="portal-title">行业门户型</p>
+      <div class="portal-icon"></div>
+      <p class="little-portal">行业门户网站或平台近来发展迅速，网站针对性地为业内人士 提供行业内及行业相关信息服务，<br /> 强化业内信息的分类，充分体现本行业特色。利用网站的平台和各项资源为成员企业开展多种增值服务并从中获利。</p>
     </div>
-    <brand-item />
+    <portal-item />
     <el-button type="primary" round>立刻获取定制方案</el-button>
   </div>
 </template>
 
 <script>
-import BrandItem from "./BrandItem";
+import PortalItem from "./PortalItem";
 
 export default {
-  name: "Brand",
+  name: "Portal",
   components: {
-    BrandItem,
+    PortalItem,
   },
 };
 </script>
 
 <style scoped>
-.brand >>> .brand-all {
+.portal >>> .portal-all {
   text-align: center;
   color: #000000;
 }
 
-.brand >>> .brand-title {
+.portal >>> .portal-title {
   font-size: 2.25rem;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 3.125rem;
 }
 
-.brand >>> .brand-bg {
+.portal >>> .portal-bg {
   font-size: 4.375rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -55,7 +55,7 @@ export default {
   left: 48.125rem;
 }
 
-.brand >>> .brand-icon {
+.portal >>> .portal-icon {
   background-color: rgba(209, 209, 209, 1);
   width: 2.5rem;
   height: 0.25rem;
@@ -63,14 +63,14 @@ export default {
   margin: 0 auto;
 }
 
-.brand >>> .little-brand {
+.portal >>> .little-portal {
   margin-top: 2.25rem;
   font-size: 1rem;
   color: rgba(170, 170, 170, 1);
 }
 
-.brand >>> .el-button {
-  margin-top: 2.5rem;
+.portal >>> .el-button {
+  margin-top: 3.125rem;
   background-color: rgba(32, 48, 245, 1);
   border-color: rgba(32, 48, 245, 1);
 }

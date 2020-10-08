@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 .field-item >>> .img {
-  margin: 0 4px;
+  margin: 0 0.25rem;
 }
 
 .field-item {
@@ -81,18 +81,18 @@ export default {
 }
 
 .field-item >>> .field-top {
-  left: 654px;
-  top: 53px;
+  left: 40.875rem;
+  top: 3.3125rem;
 }
 
 .field-item >>> .field-bottom {
-  left: 529px;
-  top: 264px;
+  left: 33.0625rem;
+  top: 16.5rem;
 }
 
 .field-item >>> .title1, .title2, .title3, .title4, .title5, .title6 {
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 0;
   font-weight: bold;
 }
@@ -100,9 +100,9 @@ export default {
 
 .field-item >>> .title1 {
   position: absolute;
-  width: 230px;
-  top: 210px;
-  left: 665px;
+  width: 14.375rem;
+  top: 13.125rem;
+  left: 41.5625rem;
 }
 
 .field-item >>> .title1 p {
@@ -110,34 +110,34 @@ export default {
 }
 
 .field-item >>> .contant {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: normal;
   margin-top: 0;
 }
 
 .field-item >>> .title2 {
   position: absolute;
-  top: 210px;
-  left: 990px;
+  top: 13.125rem;
+  left: 61.875rem;
 }
 .field-item >>> .title3 {
   position: absolute;
-  top: 210px;
-  left: 1230px;
+  top: 13.125rem;
+  left: 76.875rem;
 }
 .field-item >>> .title4 {
   position: absolute;
-  top: 420px;
-  left: 605px;
+  top: 26.25rem;
+  left: 37.8125rem;
 }
 .field-item >>> .title5 {
   position: absolute;
-  top: 420px;
-  left: 860px;
+  top: 26.25rem;
+  left: 53.75rem;
 }
 .field-item >>> .title6 {
   position: absolute;
-  top: 420px;
-  left: 1100px;
+  top: 26.25rem;
+  left: 68.75rem;
 }
 </style>

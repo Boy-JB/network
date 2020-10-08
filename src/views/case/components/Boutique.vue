@@ -28,7 +28,7 @@ export default {
 }
 
 .boutique >>> .boutique-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: Microsoft YaHei;
   font-weight: bold;
   -webkit-user-select: none;
@@ -37,11 +37,11 @@ export default {
   user-select: none;
   z-index: 99;
   position: relative;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .boutique >>> .boutique-bg {
-  font-size: 70px;
+  font-size: 4.375rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: rgba(32, 47, 244, 0.04);
@@ -51,20 +51,20 @@ export default {
   -ms-user-select: none;
   user-select: none;
   margin: 0;
-  top: 20px;
-  left: 660px;
+  top: 1.25rem;
+  left: 41.25rem;
 }
 
 .boutique >>> .boutique-icon {
   background: #d1d1d1;
-  width: 40px;
-  height: 4px;
-  border-radius: 2px;
+  width: 2.5rem;
+  height: 0.25rem;
+  border-radius: 0.125rem;
   margin: 0 auto;
 }
 
 .boutique >>> .little-boutique {
-  margin-top: 36px;
-  font-size: 12px;
+  margin-top: 2.25rem;
+  font-size: 0.75rem;
 }
 </style>

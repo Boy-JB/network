@@ -65,7 +65,7 @@ export default {
 
 .about-item >>> .el-button {
   position: absolute;
-  top: 305px;
-  left: 933px;
+  top: 19.0625rem;
+  left: 58.3125rem;
 }
 </style>

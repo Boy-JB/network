@@ -2,7 +2,7 @@
   <div class="detail-item">
     <el-tabs
       :tab-position="tabPosition"
-      style="margin-bottom: 30px; height: 90%"
+      style="margin-bottom: 1.875rem; height: 90%"
     >
       <el-tab-pane label="后台研发人员">
         <div class="title">后台研发人员</div>
@@ -69,7 +69,7 @@ export default {
   background-color: #fff;
   display: inline-block;
   margin-top: 2.85%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   font-family: "Microsoft YaHei";
 }
 
@@ -79,48 +79,48 @@ export default {
 }
 
 .detail-item >>> .el-tabs__item {
-  height: 100px;
-  line-height: 100px;
-  /* margin-top: 25px; */
+  height: 6.25rem;
+  line-height: 6.25rem;
+  /* margin-top: 1.5625rem; */
 }
 
 .detail-item >>> .title,
 .text {
-  margin-left: 25px;
+  margin-left: 1.5625rem;
 }
 
 .detail-item >>> .title {
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #000;
   font-weight: bold;
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .detail-item >>> .text {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #000;
   font-weight: 400;
-  border-left: rgba(139, 147, 255, 1) 4px solid;
-  line-height: 20px;
-  margin-top: 40px;
-  padding-left: 13px;
+  border-left: rgba(139, 147, 255, 1) 0.25rem solid;
+  line-height: 1.25rem;
+  margin-top: 2.5rem;
+  padding-left: 0.8125rem;
 }
 
 .detail-item >>> .content {
-  font-size: 16px;
+  font-size: 1rem;
   color: #a9a9a9;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
 }
 
 .detail-item >>> .el-tabs__item.is-active {
   color: #202ff5;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .detail-item >>> .el-tabs__active-bar.is-left {
-  height: 50px !important;
-  margin-top: 25px;
+  height: 3.125rem !important;
+  margin-top: 1.5625rem;
 }
 
 .detail-item >>> .el-tabs__active-bar {
@@ -134,6 +134,6 @@ export default {
 .detail-item >>> .el-tabs__item {
   color: #a9a9a9;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 </style>

@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .case-item {
-  margin-top: 51px;
+  margin-top: 3.1875rem;
 }
 
 </style>

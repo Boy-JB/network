@@ -27,7 +27,7 @@ export default {
 }
 
 .mobile >>> .mobile-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: Microsoft YaHei;
   font-weight: bold;
   -webkit-user-select: none;
@@ -36,11 +36,11 @@ export default {
   user-select: none;
   z-index: 99;
   position: relative;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .mobile >>> .mobile-bg {
-  font-size: 70px;
+  font-size: 4.375rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: rgba(32, 47, 245, 0.04);
@@ -50,21 +50,21 @@ export default {
   -ms-user-select: none;
   user-select: none;
   margin: 0;
-  top: 20px;
-  left: 770px;
+  top: 1.25rem;
+  left: 48.125rem;
 }
 
 .mobile >>> .mobile-icon {
   background-color: rgba(209, 209, 209, 1);
-  width: 40px;
-  height: 4px;
-  border-radius: 2px;
+  width: 2.5rem;
+  height: 0.25rem;
+  border-radius: 0.125rem;
   margin: 0 auto;
 }
 
 .mobile >>> .little-mobile {
-  margin-top: 36px;
-  font-size: 16px;
+  margin-top: 2.25rem;
+  font-size: 1rem;
   color: rgba(170, 170, 170, 1);
   width: 45%;
   height: 5.5%;
@@ -73,7 +73,7 @@ export default {
 }
 
 .mobile >>> .el-button {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   background-color: rgba(32, 48, 245, 1);
   border-color: rgba(32, 48, 245, 1);
 }

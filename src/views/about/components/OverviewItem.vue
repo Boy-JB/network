@@ -5,7 +5,7 @@
     </div>
     <div class="text">
       <p class="company">
-        <span style="font-weight: bold; font-size: 20px; "
+        <span style="font-weight: bold; font-size: 1.25rem; "
           >顺凯科技有限公司</span
         >致力于为企事业提供有价值的产品服务，以需求为导向，不虚假宣传、不过度营销。坚持为客户提供有价值服务。公司由多名从业经验丰富的技术精英组建。
       </p>
@@ -41,7 +41,7 @@ export default {
 <style scoped>
 .overview-item {
   /* align-items: flex-start; */
-  margin-top: 160px;
+  margin-top: 10rem;
 }
 
 .overview-item >>> .img {
@@ -50,39 +50,39 @@ export default {
 
 .overview-item >>> .text {
   display: inline-block;
-  width: 640px;
+  width: 40rem;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 2.5rem;
   vertical-align: top;
 }
 
 .overview-item >>> .title, .contant {
   margin: 0;
-  line-height: 21px;
+  line-height: 1.3125rem;
   font-family: "MicrosoftYaHei";
 }
 
 .overview-item >>> .icon {
-  width: 20px;
-  height: 4px;
+  width: 1.25rem;
+  height: 0.25rem;
   background: #d1d1d1;
-  border-radius: 2px;
-  margin: 22px 0 20px 0;
+  border-radius: 0.125rem;
+  margin: 1.375rem 0 1.25rem 0;
 }
 
 .overview-item >>> .title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #000000;
 }
 
 .overview-item >>> .contant {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: #a9a9a9;
-  line-height: 21px;
-  margin-top: 10px;
+  line-height: 1.3125rem;
+  margin-top: 0.625rem;
 }
 
 .overview-item >>> .company {

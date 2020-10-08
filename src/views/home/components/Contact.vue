@@ -36,27 +36,27 @@ export default {
 
 .contact >>> .contact-item {
   position: absolute;
-  left: 360px;
-  top: 80px;
+  left: 22.5rem;
+  top: 5rem;
 }
 
 .contact >>> .contact-item2 {
   position: absolute;
-  left: 1400px;
-  top: 131px;
+  left: 87.5rem;
+  top: 8.1875rem;
 }
 
 .contact >>> .contact-line {
   position: absolute;
-  left: 360px;
-  top: 730px;
+  left: 22.5rem;
+  top: 45.625rem;
 }
 
 .contact >>> .company {
   position: absolute;
-  left: 360px;
+  left: 22.5rem;
   color: #fff;
-  top: 750px;
-  font-size: 14px;
+  top: 46.875rem;
+  font-size: 0.875rem;
 }
 </style>

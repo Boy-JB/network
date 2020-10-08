@@ -14,6 +14,9 @@ const JoinDetail = () => import("views/joinDetails/JoinDetail.vue");
 const BrandDetail = () => import("views/solutionDetail/brand/BrandDetail.vue")
 const H5Detail = () => import("views/solutionDetail/h5/H5Detail.vue")
 const MobileDetail = () => import("views/solutionDetail/mobile/MobileDetail.vue")
+const PortalDetail = () => import("views/solutionDetail/portal/PortalDetail.vue")
+const ShopDetail = () => import("views/solutionDetail/shop/ShopDetail.vue")
+const PromotionDetail = () => import("views/solutionDetail/promotion/PromotionDetail.vue")
 
 Vue.use(VueRouter);
 
@@ -60,23 +63,22 @@ const routes = [
   {
     path: "/recruitment",
     name: "recruitment",
-    // children: {
-    //   path: "/recruitmen/joinDetails",
-    //   name: "joinDetails",
-    //   component: JoinDetail,
-    // },
     component: Recruitment,
+    children: [
+      
+    ]
+  },
+  {
+    path: "/recruitment/joinDetails",
+    name: "joinDetails",
+    component: JoinDetail
   },
   {
     path: "/about",
     name: "about",
     component: About,
   },
-  {
-    path: "/recruitmen/joinDetails",
-    name: "joinDetails",
-    component: JoinDetail,
-  },
+  
   {
     path: "/web/brand",
     name: "brand",
@@ -91,6 +93,21 @@ const routes = [
     path: "/web/mobile",
     name: "mobile",
     component: MobileDetail,
+  },
+  {
+    path: "/web/portal",
+    name: "portal",
+    component: PortalDetail,
+  },
+  {
+    path: "/web/shop",
+    name: "shop",
+    component: ShopDetail,
+  },
+  {
+    path: "/web/promotion",
+    name: "promotion",
+    component: PromotionDetail,
   },
 ];
 

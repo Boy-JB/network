@@ -1,33 +1,33 @@
 <template>
-  <div class="brand">
-     <div class="brand-all">
-      <p class="brand-title">品牌展示型（H5）</p>
-      <div class="brand-icon"></div>
-      <p class="little-brand">着重展示企业文化和品牌特色，强调创意设计与文化的结合，能通过视觉感官的冲击，<br />令目标受众对品牌产生深刻而美好的印象。使品牌形象走向新时代。</p>
+  <div class="shop">
+     <div class="shop-all">
+      <p class="shop-title">电子商城型</p>
+      <div class="shop-icon"></div>
+      <p class="little-shop">专业量身定制开发，定制设计、定制功能。使企业借助互联网的力量，<br /> 建立部署自己的网络交易平台。无论是B2B、B2C类型，均可通过INTERNET的交易管理和销售平台，给企业带来了无限商机</p>
     </div>
-    <brand-item />
+    <shop-item />
     <el-button type="primary" round>立刻获取定制方案</el-button>
   </div>
 </template>
 
 <script>
-import BrandItem from "./BrandItem";
+import ShopItem from "./ShopItem";
 
 export default {
-  name: "Brand",
+  name: "Shop",
   components: {
-    BrandItem,
+    ShopItem,
   },
 };
 </script>
 
 <style scoped>
-.brand >>> .brand-all {
+.shop >>> .shop-all {
   text-align: center;
   color: #000000;
 }
 
-.brand >>> .brand-title {
+.shop >>> .shop-title {
   font-size: 2.25rem;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +40,7 @@ export default {
   margin-top: 3.125rem;
 }
 
-.brand >>> .brand-bg {
+.shop >>> .shop-bg {
   font-size: 4.375rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -55,7 +55,7 @@ export default {
   left: 48.125rem;
 }
 
-.brand >>> .brand-icon {
+.shop >>> .shop-icon {
   background-color: rgba(209, 209, 209, 1);
   width: 2.5rem;
   height: 0.25rem;
@@ -63,14 +63,14 @@ export default {
   margin: 0 auto;
 }
 
-.brand >>> .little-brand {
+.shop >>> .little-shop {
   margin-top: 2.25rem;
   font-size: 1rem;
   color: rgba(170, 170, 170, 1);
 }
 
-.brand >>> .el-button {
-  margin-top: 2.5rem;
+.shop >>> .el-button {
+  margin-top: 3.125rem;
   background-color: rgba(32, 48, 245, 1);
   border-color: rgba(32, 48, 245, 1);
 }

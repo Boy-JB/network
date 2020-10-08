@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .contact-icon >>> .el-image {
-  margin: 34px 0 20px 10px;
+  margin: 2.125rem 0 1.25rem 0.625rem;
 }
 </style>

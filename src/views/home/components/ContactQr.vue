@@ -17,18 +17,18 @@ export default {
 
 <style scoped>
 .contact-qr >>> .el-image {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
 }
 
 .contact-qr >>> .block {
-  width: 160px;
+  width: 10rem;
   display: inline-block;
 }
 
 .contact-qr >>> .demonstration.qr {
   text-align: center;
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 </style>

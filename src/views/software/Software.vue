@@ -63,14 +63,14 @@ export default {
 <style scoped>
 .software >>> .el-header {
   background: url("../../assets/imgs/software/banner.png");
-  height: 700px !important;
+  height: 43.75rem !important;
   padding: 0;
   text-align: left;
 }
 
 .software >>> .el-main {
   background: url("../../assets/imgs/home/bg_我们的服务.png");
-  height: 1000px !important;
+  height: 62.5rem !important;
   text-align: center;
   overflow: visible;
   padding: 0;
@@ -79,7 +79,7 @@ export default {
 
 .software >>> .footer1 {
   background: url("../../assets/imgs/home/bg_我们的优势.png");
-  height: 700px !important;
+  height: 43.75rem !important;
   color: #fff;
   text-align: center;
   padding: 0;
@@ -88,7 +88,7 @@ export default {
 
 .software >>> .footer2 {
   background-color: #fafafa;
-  height: 800px !important;
+  height: 50rem !important;
   position: relative;
   text-align: center;
   padding: 0;
@@ -96,7 +96,7 @@ export default {
 
 .software >>> .footer3 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
-  height: 700px !important;
+  height: 43.75rem !important;
   position: relative;
   text-align: center;
   padding: 0;
@@ -104,7 +104,7 @@ export default {
 
 .software >>> .footer4 {
   background-color: #fafafa;
-  height: 800px !important;
+  height: 50rem !important;
   position: relative;
   text-align: center;
   padding: 0;
@@ -112,7 +112,7 @@ export default {
 
 .software >>> .footer5 {
   background: url("../../assets/imgs/home/bg_诚聘英才.png");
-  height: 700px !important;
+  height: 43.75rem !important;
   position: relative;
   text-align: center;
   padding: 0;
@@ -120,7 +120,7 @@ export default {
 
 .software >>> .footer6 {
   background: url("../../assets/imgs/home/bg_08.png");
-  height: 800px !important;
+  height: 50rem !important;
   position: relative;
   text-align: center;
   padding: 0;
@@ -130,20 +130,20 @@ export default {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
-  line-height: 200px;
+  line-height: 12.5rem;
 }
 
 .software >>> body > .el-container {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .software >>> .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
-  line-height: 260px;
+  line-height: 16.25rem;
 }
 
 .software >>> .el-container:nth-child(7) .el-aside {
-  line-height: 320px;
+  line-height: 20rem;
 }
 
 .software >>> .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,

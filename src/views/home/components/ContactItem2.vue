@@ -40,23 +40,23 @@ export default {
 }
 
 .contact-item2 >>> .img {
-  width: 50px;
-  height: 60px;
+  width: 3.125rem;
+  height: 3.75rem;
   display: inline-block;
 }
 
 .contact-item2 >>> .el-image.advisory {
-  width: 50px;
-  height: 60px;
-  border: dashed 1px;
+  width: 3.125rem;
+  height: 3.75rem;
+  border: dashed 0.0625rem;
 }
 
 .contact-item2 >>> .demonstration {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .contact-item2 >>> .icon {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 </style>

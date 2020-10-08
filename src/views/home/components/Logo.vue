@@ -2,7 +2,7 @@
 <div class="logo">
   <div class="demo-image">
   <div class="block">
-    <el-image style="width: 190px; height: 51px" :src="require('assets/imgs/home/ic_顺凯科技.png')"></el-image>
+    <el-image style="width: 11.875rem; height: 3.1875rem" :src="require('assets/imgs/home/ic_顺凯科技.png')"></el-image>
   </div>
 </div>
 </div>
@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .logo >>> .el-image {
   position: absolute;
-  top: 5px;
-  left: 460px;
+  top: 0.3125rem;
+  left: 28.75rem;
 }
 </style>

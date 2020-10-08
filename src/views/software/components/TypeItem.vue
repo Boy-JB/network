@@ -82,7 +82,7 @@ export default {
 
 <style scoped>
 .type-item >>> .img {
-  margin: 0 4px;
+  margin: 0 0.25rem;
 }
 
 .type-item {
@@ -95,19 +95,19 @@ export default {
 }
 
 .type-item >>> .type-top {
-  left: 590px;
-  top: 53px;
+  left: 36.875rem;
+  top: 3.3125rem;
 }
 
 .type-item >>> .type-bottom {
-  left: 467px;
-  top: 264px;
+  left: 29.1875rem;
+  top: 16.5rem;
 }
 
 .type-item >>> .title1, .title2, .title3, .title4, .title5, .title6, .title7{
   color: #fff;
-  font-size: 14px;
-  width: 230px;
+  font-size: 0.875rem;
+  width: 14.375rem;
   margin: 0;
   font-weight: bold;
 }
@@ -115,8 +115,8 @@ export default {
 
 .type-item >>> .title1 {
   position: absolute;
-  top: 210px;
-  left: 600px;
+  top: 13.125rem;
+  left: 37.5rem;
 }
 
 .type-item >>> .title {
@@ -124,39 +124,39 @@ export default {
 }
 
 .type-item >>> .contant {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: normal;
   margin-top: 0;
 }
 
 .type-item >>> .title2 {
   position: absolute;
-  top: 210px;
-  left:850px;
+  top: 13.125rem;
+  left:53.125rem;
 }
 .type-item >>> .title3 {
   position: absolute;
-  top: 210px;
-  left: 1095px;
+  top: 13.125rem;
+  left: 68.4375rem;
 }
 .type-item >>> .title4 {
   position: absolute;
-  top: 420px;
-  left: 475px;
+  top: 26.25rem;
+  left: 29.6875rem;
 }
 .type-item >>> .title5 {
   position: absolute;
-  top: 420px;
-  left: 725px;
+  top: 26.25rem;
+  left: 45.3125rem;
 }
 .type-item >>> .title6 {
   position: absolute;
-  top: 420px;
-  left: 970px;
+  top: 26.25rem;
+  left: 60.625rem;
 }
 .type-item >>> .title7 {
   position: absolute;
-  top: 420px;
-  left: 1215px;
+  top: 26.25rem;
+  left: 75.9375rem;
 }
 </style>

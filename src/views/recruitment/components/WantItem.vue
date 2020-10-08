@@ -1,7 +1,7 @@
 <template>
   <div class="want-item" @click="wantClick">
     <div class="block">
-      <el-carousel height="400px">
+      <el-carousel height="25rem">
         <el-carousel-item>
           <div class="demo-image__placeholder">
             <div class="block">
@@ -114,7 +114,7 @@ export default {
   name: "WantItem",
   methods: {
     wantClick() {
-      this.$router.push("/recruitmen/joinDetails");
+      this.$router.push({path: "/recruitment/joinDetails"});
     }
   },
 };
@@ -122,9 +122,9 @@ export default {
 
 <style scoped>
 .want-item >>> .el-carousel__item h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0.75;
-  line-height: 300px;
+  line-height: 18.75rem;
   margin: 0;
 }
 
@@ -144,41 +144,41 @@ export default {
 .want-item >>> .el-image__error,
 .el-image__inner,
 .el-image__placeholder {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .want-item >>> .demo-image__placeholder {
-  width: 200px;
-  margin: 10px;
+  width: 12.5rem;
+  margin: 0.625rem;
   display: inline-block;
   cursor:pointer;
 }
 
 .want-item >>> .el-image {
   background-color: #fff;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 1.25rem;
 }
 
 .want-item >>> .demonstration {
-  margin: 19px 20px 0 10px;
+  margin: 1.1875rem 1.25rem 0 0.625rem;
   text-align: left;
   color: #000000;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .want-item >>> .want-text {
   text-align: left;
-  margin: 19px 14px 0 10px;
+  margin: 1.1875rem 0.875rem 0 0.625rem;
   color: #a9a9a9;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .want-item {
-  margin-top: 53px;
+  margin-top: 3.3125rem;
 }
 
 .want-item >>> .el-carousel__button {

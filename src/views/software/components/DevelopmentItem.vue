@@ -1,7 +1,7 @@
 <template>
   <div class="development-item">
     <div class="block">
-      <el-carousel height="230px">
+      <el-carousel height="14.375rem">
         <el-carousel-item>
           <div class="demo-image__placeholder">
             <div class="block">
@@ -108,9 +108,9 @@ export default {
 
 <style scoped>
 .development-item >>> .el-carousel__item h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0.75;
-  line-height: 300px;
+  line-height: 18.75rem;
   margin: 0;
 }
 
@@ -130,16 +130,16 @@ export default {
 .development-item >>> .el-image__error,
 .el-image__inner,
 .el-image__placeholder {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .development-item >>> .development-item-icon {
   background-color: #fff;
-  width: 20px;
-  height: 1px;
-  border-radius: 2px;
-  margin: 10px auto 16px auto;
+  width: 1.25rem;
+  height: 0.0625rem;
+  border-radius: 0.125rem;
+  margin: 0.625rem auto 1rem auto;
 }
 
 .development-item >>> .demo-image__placeholder {
@@ -147,23 +147,23 @@ export default {
 }
 
 .development-item >>> .el-image {
-  width: 100px;
-  height: 100px;
-  border: 1px;
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.0625rem;
   border-style: dashed;
   color: #fff;
 }
 
 .development-item {
-  margin-top: 133px;
+  margin-top: 8.3125rem;
 }
 
 .development-item >>> .demonstration {
-  margin-top: 19px;
-  font-size: 16px;
+  margin-top: 1.1875rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Microsoft YaHei";
-  width: 160px;
+  width: 10rem;
   text-align: center;
   display: inline-block;
   color: #fff;

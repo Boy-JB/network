@@ -58,33 +58,33 @@ export default {
 
 <style scoped>
 .recruitment-item >>> .demo-image__placeholder {
-  width: 200px;
-  margin: 10px;
+  width: 12.5rem;
+  margin: 0.625rem;
   display: inline-block;
 }
 
 .recruitment-item >>> .el-image {
   background-color: #fff;
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
 }
 
 .recruitment-item >>> .demonstration {
-  margin: 19px 20px 0 10px;
+  margin: 1.1875rem 1.25rem 0 0.625rem;
   text-align: left;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .recruitment-item >>> .recruitment-text {
   text-align: left;
-  margin: 19px 14px 0 10px;
+  margin: 1.1875rem 0.875rem 0 0.625rem;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .recruitment-item {
-  margin-top: 53px;
+  margin-top: 3.3125rem;
 }
 </style>

@@ -1,7 +1,8 @@
 <template>
   <div class="home-title">
     <el-menu
-      :default-active="this.$route.path"
+      :default-active="activePath"
+      @select="handleSelect"
       class="el-menu-demo"
       mode="horizontal"
       router
@@ -36,12 +37,36 @@ export default {
         { name: "/case", navItem: "精品案例" },
         { name: "/company", navItem: "公司动态" },
         { name: "/recruitment", navItem: "诚聘英才" },
-        // { name: "/recruitmen/joinDetails", navItem: "诚聘英才" },
         { name: "/about", navItem: "关于我们" },
       ],
     };
   },
-  methods: {},
+  methods: {
+    handleSelect(key, keyPath) {
+      console.log(this);
+      console.log(key, keyPath);
+    },
+  },
+  created() {
+    let path = this.$route.path;
+    if (path == "/recruitment/joinDetails") {
+      this.activePath = "/recruitment";
+    } else if (path == "/web/brand") {
+      this.activePath = "/web";
+    } else if (path == "/web/h5") {
+      this.activePath = "/web";
+    } else if (path == "/web/mobile") {
+      this.activePath = "/web";
+    } else if (path == "/web/portal") {
+      this.activePath = "/web";
+    } else if (path == "/web/shop") {
+      this.activePath = "/web";
+    } else if (path == "/web/promotion") {
+      this.activePath = "/web";
+    } else {
+      this.activePath = path;
+    }
+  },
   computed: {},
 };
 </script>
@@ -52,11 +77,11 @@ export default {
 }
 
 .home-title >>> .el-menu.el-menu--horizontal {
-  border-bottom: solid 1px transparent;
+  border-bottom: solid 0.0625rem transparent;
 }
 
 .home-title >>> .el-menu--horizontal > .el-menu-item.is-active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 0.125rem solid #fff;
   color: #fff;
 }
 
@@ -65,7 +90,7 @@ export default {
 }
 
 .home-title >>> .el-menu {
-  margin-left: 715px;
+  margin-left: 44.6875rem;
 }
 
 .home-title >>> .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,

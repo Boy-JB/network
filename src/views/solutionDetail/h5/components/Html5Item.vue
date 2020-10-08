@@ -23,18 +23,18 @@
 
 <script>
 export default {
-  naem: "Html5Item",
+  name: "Html5Item",
 };
 </script>
 
 <style scoped>
 .html5-item >>> .el-image {
-  width: 400px;
-  height: 440px;
+  width: 25rem;
+  height: 27.5rem;
   display: inline-block;
   position: absolute;
-  top: 53px;
-  left: 493px;
+  top: 3.3125rem;
+  left: 30.8125rem;
 }
 
 .html5-item >>> .el-button--primary {
@@ -43,21 +43,21 @@ export default {
 }
 .html5-item >>> .demonstration {
   display: inline-block;
-  width: 427px;
-  height: 200px;
+  width: 26.6875rem;
+  height: 12.5rem;
   color: rgba(170, 170, 170, 1);
-  font-size: 16px;
+  font-size: 1rem;
   position: absolute;
-  top: 153px;
-  left: 933px;
+  top: 9.5625rem;
+  left: 58.3125rem;
   margin: 0;
-  line-height: 22px;
+  line-height: 1.375rem;
   text-align: left;
 }
 
 .html5-item >>> .demonstration strong {
   color: rgba(0, 0, 0, 1);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .html5-item {
@@ -66,28 +66,28 @@ export default {
 
 .html5-item >>> .title {
   color:rgba(170, 170, 170, 1);
-  line-height: 30px;
-  font-size: 16px;
+  line-height: 1.875rem;
+  font-size: 1rem;
 }
 
 .html5-item >>> .content {
   color: rgba(170, 170, 170, 1);
-  line-height: 30px;
-  font-size: 16px;
+  line-height: 1.875rem;
+  font-size: 1rem;
 }
 
 .html5-item >>> .final {
   text-align: center;
-  width: 866px;
-  height: 406px;
+  width: 54.125rem;
+  height: 25.375rem;
   display: inline-block;
-  margin-top: 580px;
+  margin-top: 36.25rem;
 }
 
 .html5-item >>> .final-title,
 .final-text {
   text-align: left;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .html5-item >>> .final-title {
@@ -96,12 +96,12 @@ export default {
 
 .html5-item >>> .final-text {
   color: rgba(170, 170, 170, 1);
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 
 .html5-item >>> .el-button {
   position: absolute;
-  top: 340px;
-  left: 933px;
+  top: 21.25rem;
+  left: 58.3125rem;
 }
 </style>

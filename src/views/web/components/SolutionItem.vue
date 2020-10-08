@@ -1,9 +1,9 @@
 <template>
   <div class="solution-item">
     <el-row >
-      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick1">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick1">
         <img class="image1" :src="require('../../../assets/imgs/web/img_框.png')"  />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">全网H5响应式 自适应</span>
           <p class="content">
             企业建站的终极解决方案。 <br />
@@ -13,12 +13,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick2">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick2">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
         />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">移动微门户</span>
           <p class="content">
             通过整合移动端多种营销方式，<br />
@@ -27,12 +27,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick3">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
         />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">行业门户型</span>
           <p class="content">
             行业门户网站或平台近来发展迅速，网站针对性地为业内人士
@@ -42,12 +42,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick4">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
         />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">电子商城型</span>
           <p class="content">
             专业量身定制开发，定制设计、定制功能。使企业借助互联网的力量，建立部署自己的网络交易平台。<br />
@@ -56,12 +56,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }" @click.native="cardClick5">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick5">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
         />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">品牌展示型（含H5）</span>
           <p class="content">
             着重展示企业文化和品牌特色，强调创意设计与文化的结合，能通过视觉感官的冲击，令目标受众对品牌产生深刻而美好的印象。<br />
@@ -70,12 +70,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }" @click.native="cardClick6">
         <img
           class="image1"
           :src="require('../../../assets/imgs/web/img_框.png')"
         />
-        <div style="padding: 14px; margin-top: 16px">
+        <div style="padding: 0.875rem; margin-top: 1rem">
           <span class="title">企业宣传型</span>
           <p class="content">
            致力于提升企业形象，介绍公司业务， 获得用户关注。<br />
@@ -99,9 +99,21 @@ export default {
       console.log("==========");
       this.$router.push("/web/mobile");
     },
+    cardClick3() {
+      console.log("==========");
+      this.$router.push("/web/portal");
+    },
+    cardClick4() {
+      console.log("==========");
+      this.$router.push("/web/shop");
+    },
     cardClick5() {
       console.log("==========");
       this.$router.push("/web/brand");
+    },
+    cardClick6() {
+      console.log("==========");
+      this.$router.push("/web/promotion");
     }
   },
 };
@@ -109,15 +121,15 @@ export default {
 
 <style scoped>
 .solution-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .solution-item >>> .image1 {
-  /* width: 80px;
-  height: 80px; */
+  /* width: 5rem;
+  height: 5rem; */
   display: inline-block;
-  /* margin-top: 40px; */
+  /* margin-top: 2.5rem; */
 }
 
 .solution-item >>> .clearfix:before,
@@ -132,48 +144,48 @@ export default {
 
 .solution-item >>> .el-col-offset-5 {
   margin-left: 0;
-  /* margin-top: 220px; */
+  /* margin-top: 13.75rem; */
 }
 .solution-item >>> .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
-  width: 300px;
-  height: 420px;
+  width: 18.75rem;
+  height: 26.25rem;
   display: inline-block;
 }
 
 .solution-item >>> .el-row {
-  margin: 0 400px 80px 400px;
+  margin: 0 25rem 5rem 25rem;
   /* display: inline-block; */
 }
 
 .solution-item >>> .el-card {
-  margin: 20px;
-  border-radius: 20px;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
   cursor: pointer;
 }
 
 .solution-item >>> .title {
   font-family: "MicrosoftYaHei-Bold";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 900;
   color: #000000;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .solution-item >>> .text {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000000;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .solution-item >>> .content {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #aaaaaa;
-  margin-top: 9px;
-  line-height: 30px;
+  margin-top: 0.5625rem;
+  line-height: 1.875rem;
 }
 </style>

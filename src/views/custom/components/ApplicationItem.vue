@@ -33,16 +33,16 @@ export default {
 .advantage-item >>> .el-image__error,
 .el-image__inner,
 .el-image__placeholder {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .advantage-item >>> .advantage-item-icon {
   background-color: #fff;
-  width: 20px;
-  height: 1px;
-  border-radius: 2px;
-  margin: 10px auto 16px auto;
+  width: 1.25rem;
+  height: 0.0625rem;
+  border-radius: 0.125rem;
+  margin: 0.625rem auto 1rem auto;
 }
 
 .advantage-item >>> .demo-image__placeholder {
@@ -50,23 +50,23 @@ export default {
 }
 
 .advantage-item >>> .el-image {
-  width: 100px;
-  height: 100px;
-  border: 1px;
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.0625rem;
   border-style: dashed;
 }
 
 .advantage-item {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .advantage-item >>> .demo-image__placeholder {
-  margin: 0 75px 0 75px;
+  margin: 0 4.6875rem 0 4.6875rem;
 }
 
 .advantage-item >>> .demonstration {
-  margin-top: 19px;
-  font-size: 16px;
+  margin-top: 1.1875rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Microsoft YaHei";
 }

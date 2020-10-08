@@ -23,21 +23,21 @@ export default {
 <style scoped>
 .contactus-item >>> .box {
   display: inline-block;
-  width: 690px;
-  height: 360px;
+  width: 43.125rem;
+  height: 22.5rem;
   background: #ffffff;
-  border-radius: 20px;
-  margin-top: 53px;
+  border-radius: 1.25rem;
+  margin-top: 3.3125rem;
 }
 
 .contactus-item >>> .box p {
   text-align: left;
   font-family: "Microsoft YaHei";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #000;
-  margin: 0 0 0 53px;
-  line-height: 36px;
+  margin: 0 0 0 3.3125rem;
+  line-height: 2.25rem;
 
 }
 

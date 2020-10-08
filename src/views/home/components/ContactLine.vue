@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .contact-line {
-  border: solid 1px #fff;
-  width: 1200px;
+  border: solid 0.0625rem #fff;
+  width: 75rem;
 }
 </style>

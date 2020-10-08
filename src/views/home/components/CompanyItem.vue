@@ -10,27 +10,27 @@
       <p class="text1">英特尔第十二代酷睿或使用LGA1700接口</p>
     </div>
     <el-row>
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img src="#" class="image" />
-        <div style="padding: 0 28px 0 28px;">
+        <div style="padding: 0 1.75rem 0 1.75rem;">
           <span
             >换接口，对于英特尔用户而言，似乎已经习惯。十代酷睿更换为LGA1200接口，无法兼容老主板，对于已有整机、但只...</span
           >
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img src="#" class="image" />
-        <div style="padding: 0 28px 0 28px;">
+        <div style="padding: 0 1.75rem 0 1.75rem;">
           <span
             >换接口，对于英特尔用户而言，似乎已经习惯。十代酷睿更换为LGA1200接口，无法兼容老主板，对于已有整机、但只...</span
           >
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img src="#" class="image" />
-        <div style="padding: 0 28px 0 28px;">
+        <div style="padding: 0 1.75rem 0 1.75rem;">
           <span
             >换接口，对于英特尔用户而言，似乎已经习惯。十代酷睿更换为LGA1200接口，无法兼容老主板，对于已有整机、但只...</span
           >
@@ -48,13 +48,13 @@ export default {
 
 <style scoped>
 .company-item >>> .time {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #999;
 }
 
 .company-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .company-item >>> .button {
@@ -78,21 +78,21 @@ export default {
 }
 
 .company-item >>> .el-card {
-  width: 300px;
-  height: 420px;
+  width: 18.75rem;
+  height: 26.25rem;
   display: inline-block;
-  margin: 0 30px;
-  border-radius: 20px;
-  box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.03);
+  margin: 0 1.875rem;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 1.875rem 1.875rem 0rem rgba(0, 0, 0, 0.03);
 }
 
 .company-item >>> .el-card span {
   color: rgba(170, 170, 170, 1);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .company-item >>> .el-row {
-  margin-top: 53px;
+  margin-top: 3.3125rem;
 }
 
 .company-item {
@@ -103,14 +103,14 @@ export default {
 .card2,
 .card3 {
   position: absolute;
-  width: 320px;
-  height: 49px;
+  width: 20rem;
+  height: 3.0625rem;
   background-color: #fff;
-  border-radius: 10px;
-  line-height: 49px;
+  border-radius: 0.625rem;
+  line-height: 3.0625rem;
   text-align: center;
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .company-item >>> .text1,
@@ -120,18 +120,18 @@ export default {
 }
 
 .company-item >>> .card1 {
-  /* top: 43px; */
-  left: 430px;
+  /* top: 2.6875rem; */
+  left: 26.875rem;
   z-index: 99;
 }
 .company-item >>> .card2 {
-  /* top: 43px; */
-  left: 793px;
+  /* top: 2.6875rem; */
+  left: 49.5625rem;
   z-index: 99;
 }
 .company-item >>> .card3 {
-  /* top: 43px; */
-  left: 1155px;
+  /* top: 2.6875rem; */
+  left: 72.1875rem;
   z-index: 99;
 }
 </style>

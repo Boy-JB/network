@@ -1,12 +1,12 @@
 <template>
   <div class="operating-item">
     <el-row>
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_虚拟局域网.png')"
         />
-        <div style="padding: 14px;">
+        <div style="padding: 0.875rem;">
           <span class="title">虚拟局域网SD-WAN企业组网</span>
           <p class="content">
             SD-WAN解决方案通过SDN技术，帮助用户降低广域网(WAN)成本并提高其连接灵活性，能够极大降低运维成...
@@ -17,12 +17,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_视频会议软件系统.png')"
         />
-        <div style="padding: 14px;">
+        <div style="padding: 0.875rem;">
           <span class="title">视频会议软件系统</span>
           <p class="content">
             企事业单位视频会议、远程培训、即时通讯与协同办公。网络多媒体远程授课，适用网络教育学院、广播...
@@ -33,12 +33,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_企业内部文件共享系统.png')"
         />
-        <div style="padding: 14px;">
+        <div style="padding: 0.875rem;">
           <span class="title">企业内部文件共享系统</span>
           <p class="content">
             企业内部文件共享系统-文件归档查询调阅共享系统由本公司自主研发，包含常用office文件、rar文件、...
@@ -49,12 +49,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_VASS数据中心.png')"
         />
-        <div style="padding: 14px;">
+        <div style="padding: 0.875rem;">
           <span class="title">VASS数据中心母线槽配电系统</span>
           <p class="content">
             专业的母线排/母线槽配电系统生产制造商。提供大功率(800A-7000A交流电和12100A直流电)的母...
@@ -65,12 +65,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_数据修复.png')"
         />
-        <div style="padding: 14px; height: 129px">
+        <div style="padding: 0.875rem; height: 8.0625rem">
           <span class="title">数据修复、数据恢复</span>
           <p class="content">
             软件故障恢复 RAID故障恢复 硬件故障恢复 开盘数据恢复...
@@ -81,12 +81,12 @@
         </div>
       </el-card>
 
-      <el-card :body-style="{ padding: '0px' }">
+      <el-card :body-style="{ padding: '0rem' }">
         <img
           class="image1"
           :src="require('assets/imgs/system/img_企业官网APP软件空间.png')"
         />
-        <div style="padding: 14px;">
+        <div style="padding: 0.875rem;">
           <span class="title">企业网站APP软件空间</span>
           <p class="content">
             阿里云主机服务LIUNX系统平台；高安全性稳定性；阿里云快速备案；IIS、Apache性能不限；空间、流量...
@@ -108,8 +108,8 @@ export default {
 
 <style scoped>
 .operating-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .operating-item >>> .image1 {
@@ -128,48 +128,48 @@ export default {
 
 .operating-item >>> .el-col-offset-5 {
   margin-left: 0;
-  /* margin-top: 220px; */
+  /* margin-top: 13.75rem; */
 }
 .operating-item >>> .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
-  width: 300px;
-  height: 420px;
+  width: 18.75rem;
+  height: 26.25rem;
   display: inline-block;
 }
 
 .operating-item >>> .el-row {
-  margin: 0 400px 80px 400px;
+  margin: 0 25rem 5rem 25rem;
   /* display: inline-block; */
 }
 
 .operating-item >>> .el-card {
-  margin: 20px;
-  border-radius: 20px;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
 }
 
 .operating-item >>> .title {
   font-family: "MicrosoftYaHei-Bold";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 900;
   color: #000000;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .operating-item >>> .text {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000000;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .operating-item >>> .content {
   font-family: "MicrosoftYaHei";
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #aaaaaa;
-  margin: 9px;
-  line-height: 30px;
+  margin: 0.5625rem;
+  line-height: 1.875rem;
 }
 
 .operating-item >>> .el-button--primary {
@@ -178,13 +178,13 @@ export default {
 }
 
 .operating-item >>> .time {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #999;
 }
 
 .operating-item >>> .bottom {
-  margin-top: 13px;
-  line-height: 12px;
+  margin-top: 0.8125rem;
+  line-height: 0.75rem;
 }
 
 .operating-item >>> .button {
@@ -208,15 +208,15 @@ export default {
 }
 
 .operating-item >>> .bottom.clearfix {
-  height: 100px;
+  height: 6.25rem;
   position: relative;
 }
 
 .operating-item >>> .el-button.el-button--primary.is-round {
   position: absolute;
-  top: 5px;
-  left: 50px;
-  right: 50px;
-  margin: 5px auto;
+  top: 0.3125rem;
+  left: 3.125rem;
+  right: 3.125rem;
+  margin: 0.3125rem auto;
 }
 </style>

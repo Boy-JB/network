@@ -41,19 +41,19 @@
 
 <script>
 export default {
-  naem: "BrandItem",
+  name: "BrandItem",
   
 };
 </script>
 
 <style scoped>
 .brand-item >>> .el-image {
-  width: 400px;
-  height: 440px;
+  width: 25rem;
+  height: 27.5rem;
   display: inline-block;
   position: absolute;
-  top: 53px;
-  left: 493px;
+  top: 3.3125rem;
+  left: 30.8125rem;
 
 }
 
@@ -63,21 +63,21 @@ export default {
 }
 .brand-item >>> .demonstration {
   display: inline-block;
-  width: 427px;
-  height: 496px;
+  width: 26.6875rem;
+  height: 31rem;
   color: rgba(170, 170, 170, 1);
-  font-size: 16px;
+  font-size: 1rem;
   position: absolute;
-  top: 53px;
-  left: 933px;
+  top: 3.3125rem;
+  left: 58.3125rem;
   margin: 0;
-  line-height: 22px;
+  line-height: 1.375rem;
   text-align: left;
 }
 
 .brand-item >>> .demonstration strong {
   color: rgba(0, 0, 0, 1);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .brand-item {
@@ -87,27 +87,27 @@ export default {
 
 .brand-item >>> .title {
 color: #000;
-line-height: 30px;
-font-size: 16px;
+line-height: 1.875rem;
+font-size: 1rem;
 }
 
 .brand-item >>> .content {
   color: rgba(170, 170, 170, 1);
-  line-height: 30px;
-  font-size: 16px;
+  line-height: 1.875rem;
+  font-size: 1rem;
 }
 
 .brand-item >>> .final {
   text-align: center;
-  width: 866px;
-  height: 406px;
+  width: 54.125rem;
+  height: 25.375rem;
   display: inline-block;
-  margin-top: 580px;
+  margin-top: 36.25rem;
 }
 
 .brand-item >>> .final-title, .final-text {
   text-align: left;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .brand-item >>> .final-title {
@@ -116,6 +116,6 @@ font-size: 16px;
 
 .brand-item >>> .final-text {
   color: rgba(170, 170, 170, 1);
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 </style>

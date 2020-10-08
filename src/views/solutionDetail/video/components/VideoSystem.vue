@@ -1,33 +1,32 @@
 <template>
-  <div class="brand">
-     <div class="brand-all">
-      <p class="brand-title">品牌展示型（H5）</p>
-      <div class="brand-icon"></div>
-      <p class="little-brand">着重展示企业文化和品牌特色，强调创意设计与文化的结合，能通过视觉感官的冲击，<br />令目标受众对品牌产生深刻而美好的印象。使品牌形象走向新时代。</p>
+  <div class="video">
+     <div class="video-all">
+      <p class="video-title">视频会议软件系统</p>
+      <div class="video-icon"></div>
+      <p class="little-video">企事业单位视频会议、远程培训、即时通讯与协同办公。网络多媒体远程授课，适用网络教育学院、<br />广播电视大学、中小学远程教育、社会培训业、远程软件培训、证券咨询等应用。</p>
     </div>
-    <brand-item />
-    <el-button type="primary" round>立刻获取定制方案</el-button>
+    <video-item />
   </div>
 </template>
 
 <script>
-import BrandItem from "./BrandItem";
+import MobileItem from "./MobileItem";
 
 export default {
-  name: "Brand",
+  name: "Mobile",
   components: {
-    BrandItem,
+    MobileItem,
   },
 };
 </script>
 
 <style scoped>
-.brand >>> .brand-all {
+.video >>> .video-all {
   text-align: center;
   color: #000000;
 }
 
-.brand >>> .brand-title {
+.video >>> .video-title {
   font-size: 2.25rem;
   font-family: Microsoft YaHei;
   font-weight: bold;
@@ -40,7 +39,7 @@ export default {
   margin-top: 3.125rem;
 }
 
-.brand >>> .brand-bg {
+.video >>> .video-bg {
   font-size: 4.375rem;
   font-family: Microsoft YaHei;
   font-weight: 400;
@@ -55,7 +54,7 @@ export default {
   left: 48.125rem;
 }
 
-.brand >>> .brand-icon {
+.video >>> .video-icon {
   background-color: rgba(209, 209, 209, 1);
   width: 2.5rem;
   height: 0.25rem;
@@ -63,13 +62,17 @@ export default {
   margin: 0 auto;
 }
 
-.brand >>> .little-brand {
+.video >>> .little-video {
   margin-top: 2.25rem;
   font-size: 1rem;
   color: rgba(170, 170, 170, 1);
+  width: 45%;
+  height: 5.5%;
+  display: inline-block;
+  text-align: center;
 }
 
-.brand >>> .el-button {
+.video >>> .el-button {
   margin-top: 2.5rem;
   background-color: rgba(32, 48, 245, 1);
   border-color: rgba(32, 48, 245, 1);
