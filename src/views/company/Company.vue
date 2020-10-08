@@ -40,12 +40,7 @@
 <script>
 import HomeTitle from "views/home/components/HomeTitle";
 import Logo from "views/home/components/Logo";
-// import Service from "./components/Service";
-// import Advantage from "./components/Advantage";
-// import Case from "./components/Case";
-// import Company from "./components/Company";
-// import About from "./components/About";
-// import Recruitment from "./components/Recruitment";
+
 import Contact from "views/home/components/Contact"
 
 export default {
